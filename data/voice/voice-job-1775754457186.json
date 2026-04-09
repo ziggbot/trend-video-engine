@@ -1,0 +1,10 @@
+{
+  "createdAt": "2026-04-09T17:07:37.186Z",
+  "status": "provider-ready",
+  "provider": "not-configured",
+  "voiceId": "default",
+  "script": "Alla pratar om The Punisher: One Last Kill just nu, men här är varför det faktiskt betyder något. Den senaste trailern lovar en hel del action och grymma dödsfall. För många fans är Punisher mer än bara en superhjälte; han är en symbol för rättvisa på sitt eget sätt. Serien utforskar komplexiteten av hämnd och vad som driver en människa till att bli en mördare. Med det sagt, kan vi förvänta oss en djupare berättelse, inte bara brutala scener. Den här gången kanske vi får se Frank Castle konfrontera sina egna demoner. Missa inte chansen att se vad som verkligen ligger bakom alla dessa dödande! ",
+  "scriptLength": 600,
+  "note": "TTS credentials detected. Ready to connect real provider call.",
+  "nextAction": "Implement provider-specific request and save returned audio file."
+}

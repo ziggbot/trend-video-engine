@@ -1,0 +1,38 @@
+{
+  "topic": "the punisher one last kill",
+  "why_now": "‘The Punisher: One Last Kill’ Trailer Promises Many Kills, Actually",
+  "audience_angle": "Förklara snabbt varför folk pratar om detta och varför det spelar roll.",
+  "hook": "Alla pratar om the punisher one last kill just nu, men här är varför det faktiskt betyder något.",
+  "title": "the punisher one last kill, förklarat på 30 sekunder",
+  "script_30s": "Alla pratar om 'The Punisher: One Last Kill' just nu. Men varför? Det handlar om mer än bara action och dödande. Den här filmen lovar en djupt känslomässig resa för Frank Castle. Efter år av kamp mot orättvisor får vi se hans sista strid. Fans är nyfikna på hur hans historia slutar, och om vi verkligen får se den hämnd han förtjänar. Trailerna visar upp intensiva scener och lovar många dödsfall. Det här är inte bara underhållning; det speglar kampen för rättvisa i vår egen värld. Så, är du redo för det sista kapitlet?",
+  "voice_style": "clear, energetic, credible",
+  "visual_direction": [
+    "big hook text first 2 seconds",
+    "3 fast explainer cards",
+    "clean subtitle pacing",
+    "end with a curiosity CTA"
+  ],
+  "youtube": {
+    "title": "Varför 'The Punisher: One Last Kill' är viktigt just nu",
+    "description": "Kort förklaring av varför the punisher one last kill trendar just nu.",
+    "tags": [
+      "trending",
+      "nyheter",
+      "förklaring",
+      "shorts"
+    ]
+  },
+  "review": {
+    "status": "draft",
+    "notes": "Script generated with OpenAI. Needs human check for factual accuracy and tone before publishing."
+  },
+  "generationMode": "openai",
+  "caption_chunks": [
+    "Alla pratar om 'The Punisher: One Last Kill'!",
+    "Men varför betyder det något?",
+    "Det handlar om en djupt känslomässig resa.",
+    "Frank Castles sista strid.",
+    "Intensiva scener och många dödsfall!",
+    "En spegling av vår egen kamp för rättvisa."
+  ]
+}

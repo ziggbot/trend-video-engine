@@ -1,0 +1,35 @@
+{
+  "createdAt": "2026-04-09T17:07:24.338Z",
+  "status": "scaffolded",
+  "format": "youtube-short-9x16",
+  "durationTargetSeconds": 30,
+  "sourceBrief": "content-brief-1775754439076.json",
+  "scenes": [
+    {
+      "type": "hook-card",
+      "text": "Six Flags Magic Mountain på tapeten!",
+      "durationSeconds": 4
+    },
+    {
+      "type": "explainer-card",
+      "text": "533 miljoner dollar i förlust!",
+      "durationSeconds": 7
+    },
+    {
+      "type": "context-card",
+      "text": "Vad betyder det för nöjesparker?",
+      "durationSeconds": 9
+    },
+    {
+      "type": "cta-card",
+      "text": "Vi älskar våra nöjesparker!",
+      "durationSeconds": 4
+    }
+  ],
+  "assetsNeeded": {
+    "voiceover": true,
+    "captions": true,
+    "backgroundVisual": true
+  },
+  "note": "Next step is implementing actual rendering with ffmpeg, Remotion, or HTML capture."
+}

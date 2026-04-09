@@ -1,0 +1,308 @@
+{
+  "source": "https://trends.google.com/trending/rss?geo=SE",
+  "region": "SE",
+  "regionLabel": "Sweden",
+  "fetchedAt": "2026-04-09T17:07:18.967Z",
+  "trends": [
+    {
+      "topic": "fred couples",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "regionLabel": "Sweden",
+      "trendScoreRaw": 200,
+      "approxTraffic": "200+",
+      "timestamp": "2026-04-09T17:07:18.964Z",
+      "publishedAt": "Thu, 9 Apr 2026 09:50:00 -0700",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRC45ttNko1huK1pk6dxD-3GrGa7zp8tz4xHWmKCLw7t6JHrP8JoN7aT9uE4Ns",
+      "pictureSource": "PGA Tour",
+      "news": [
+        {
+          "title": "Fred Couples betting profile: Masters Tournament",
+          "url": "https://www.pgatour.com/article/news/betting-profile/2026/masters-tournament/fred-couples-pga-tour-betting-stats-masters-tournament-2026",
+          "source": "PGA Tour"
+        },
+        {
+          "title": "Oldest Masters player, 66, vows not to embarrass himself on Augusta return",
+          "url": "https://www.aol.com/entertainment/oldest-masters-player-66-vows-084300682.html",
+          "source": "AOL.com"
+        },
+        {
+          "title": "Fred Couples’ hopes of making Masters cut after laying Tiger Woods feelings on the line",
+          "url": "https://www.themirror.com/sport/golf/fred-couples-masters-cut-odds-1779710",
+          "source": "The Mirror US"
+        }
+      ],
+      "whyNow": "Fred Couples betting profile: Masters Tournament"
+    },
+    {
+      "topic": "nanna olasdotter hallberg",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "regionLabel": "Sweden",
+      "trendScoreRaw": 200,
+      "approxTraffic": "200+",
+      "timestamp": "2026-04-09T17:07:18.965Z",
+      "publishedAt": "Thu, 9 Apr 2026 09:40:00 -0700",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQiWX-POcQgZdheDZ080DDC7tizv9qYuHehaMiUS_BQYfxzNsIA-jV8w8hED2s",
+      "pictureSource": "Aftonbladet",
+      "news": [
+        {
+          "title": "Chattskandalen i Alingsås blir teater",
+          "url": "https://www.aftonbladet.se/nojesbladet/a/e7GKAQ/chattskandalen-i-alingsas-blir-teater",
+          "source": "Aftonbladet"
+        },
+        {
+          "title": "Nanna Olasdotter Hallberg gör teater av Alingsåschatten",
+          "url": "https://via.tt.se/pressmeddelande/4321896/nanna-olasdotter-hallberg-gor-teater-av-alingsaschatten?publisherId=3237061&lang=sv",
+          "source": "Via TT"
+        },
+        {
+          "title": "Chattskandalen blir teaterpjäs i Stockholm",
+          "url": "https://www.alingsastidning.se/nyheter/alingsas/chattskandalen-i-alingsas-blir-teater-i-stockholm.02b41689-e6f0-4d55-8657-ed2a8f9e5490",
+          "source": "Alingsås Tidning"
+        }
+      ],
+      "whyNow": "Chattskandalen i Alingsås blir teater"
+    },
+    {
+      "topic": "warner hahn",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "regionLabel": "Sweden",
+      "trendScoreRaw": 100,
+      "approxTraffic": "100+",
+      "timestamp": "2026-04-09T17:07:18.965Z",
+      "publishedAt": "Thu, 9 Apr 2026 09:30:00 -0700",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQY3dxerXoehLrOzn-28D_raDp2YDXbGS1rnFn7ckePyL4FNHV0WRfeA0_PEto",
+      "pictureSource": "Fotbollskanalen",
+      "news": [
+        {
+          "title": "Hahns VM-dröm krossad: \"Det är skit\"",
+          "url": "https://www.fotbollskanalen.se/artiklar/landslag/hahns-vm-drom-krossad-det-ar-skit",
+          "source": "Fotbollskanalen"
+        },
+        {
+          "title": "Warner Hahn: \"Det är en dröm mindre\"",
+          "url": "https://fotbolltransfers.com/nyheter/warner-hahn-det-ar-en-drom-mindre/214954",
+          "source": "Fotbolltransfers"
+        },
+        {
+          "title": "Warner Hahn om Surinams VM-miss: ”Som ett superettan-lag i allsvenskan”",
+          "url": "https://bollsvenskan.se/warner-hahn-om-surinams-vm-miss-som-ett-superettan-lag-i-allsvenskan/",
+          "source": "Bollsvenskan"
+        }
+      ],
+      "whyNow": "Hahns VM-dröm krossad: \"Det är skit\""
+    },
+    {
+      "topic": "patrick reed",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "regionLabel": "Sweden",
+      "trendScoreRaw": 200,
+      "approxTraffic": "200+",
+      "timestamp": "2026-04-09T17:07:18.966Z",
+      "publishedAt": "Thu, 9 Apr 2026 09:10:00 -0700",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQMNdAfxXEpaIdJ2DJK7WTImfm_oStK0v3u89pVUMXHe4fgrLs07n0Daniv7vg",
+      "pictureSource": "Skratch Golf",
+      "news": [
+        {
+          "title": "Patrick Reed Came Out the Gates Hot at Augusta National",
+          "url": "https://www.skratch.golf/news/news/masters-patrick-reed-hot-start-scores-augusta-national",
+          "source": "Skratch Golf"
+        },
+        {
+          "title": "Masters winner gushes over PGA Tour after quitting it for LIV Golf",
+          "url": "https://www.msn.com/en-us/sports/golf/masters-winner-gushes-over-pga-tour-after-quitting-it-for-liv-golf/vi-AA20q1FR",
+          "source": "MSN"
+        },
+        {
+          "title": "Patrick Reed odds to win the 2026 Masters Tournament",
+          "url": "https://golfweek.usatoday.com/story/sports/golf/2026/04/08/patrick-reed-odds-to-win-masters-tournament-betting-props/89521607007/",
+          "source": "Golfweek"
+        }
+      ],
+      "whyNow": "Patrick Reed Came Out the Gates Hot at Augusta National"
+    },
+    {
+      "topic": "inflation",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "regionLabel": "Sweden",
+      "trendScoreRaw": 200,
+      "approxTraffic": "200+",
+      "timestamp": "2026-04-09T17:07:18.966Z",
+      "publishedAt": "Thu, 9 Apr 2026 09:10:00 -0700",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSolObNmEsVkRE94w5MflE10ouvocAAuWbcVZLu6p4obMfobmxXcPT7wjmLL-o",
+      "pictureSource": "DI",
+      "news": [
+        {
+          "title": "Amerikansk inflationssiffra i linje med förväntningarna",
+          "url": "https://www.di.se/live/amerikansk-inflationssiffra-i-linje-med-forvantningarna/",
+          "source": "DI"
+        },
+        {
+          "title": "USA: Inflation föll som väntat",
+          "url": "https://www.aftonbladet.se/minekonomi/a/JOrxGX/usa-inflation-foll-som-vantat",
+          "source": "Aftonbladet"
+        },
+        {
+          "title": "Nils Åkesson: Het USA-inflation redan före krigets oljechock",
+          "url": "https://www.di.se/nyheter/het-usa-inflation-redan-fore-krigets-oljechock/",
+          "source": "DI"
+        }
+      ],
+      "whyNow": "Amerikansk inflationssiffra i linje med förväntningarna"
+    },
+    {
+      "topic": "us masters 2026",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "regionLabel": "Sweden",
+      "trendScoreRaw": 500,
+      "approxTraffic": "500+",
+      "timestamp": "2026-04-09T17:07:18.966Z",
+      "publishedAt": "Thu, 9 Apr 2026 08:50:00 -0700",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQOKkYoSH876Tx7zsO4tucSkIEfaseDG_3iEPuHwy_RzVcJmEkBE7wrT12EnmM",
+      "pictureSource": "Sky Sports",
+      "news": [
+        {
+          "title": "The Masters 2026 leaderboard: Latest golf scores from Augusta National and tee times for opening major of the year",
+          "url": "https://www.skysports.com/golf/news/12176/13529496/the-masters-2026-leaderboard-latest-golf-scores-from-augusta-national-and-tee-times-for-opening-major-of-the-year",
+          "source": "Sky Sports"
+        },
+        {
+          "title": "Expert Picks: Masters Tournament",
+          "url": "https://www.pgatour.com/article/news/expert-picks/2026/04/07/who-are-experts-picking-for-the-masters-2026-major-augusta-national-scottie-scheffler-rory-mcilroy",
+          "source": "PGA Tour"
+        },
+        {
+          "title": "The Masters 2026 tee-times: McIlroy, Rahm, Scheffler, DeChambeau & Fleetwood at Augusta",
+          "url": "https://www.bbc.com/sport/golf/articles/crl12d8520eo",
+          "source": "BBC"
+        }
+      ],
+      "whyNow": "The Masters 2026 leaderboard: Latest golf scores from Augusta National and tee times for opening major of the year"
+    },
+    {
+      "topic": "sydöstran",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "regionLabel": "Sweden",
+      "trendScoreRaw": 200,
+      "approxTraffic": "200+",
+      "timestamp": "2026-04-09T17:07:18.966Z",
+      "publishedAt": "Thu, 9 Apr 2026 08:50:00 -0700",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT_AoXX4mGT6Idfw7KeXnprAea_GFexc7GNaBj1uYd5g7nTrlyYvmalGHz2hkw",
+      "pictureSource": "SVT Nyheter",
+      "news": [
+        {
+          "title": "Kollapsen i regionstyret – alla samarbeten avbrutna",
+          "url": "https://www.svt.se/nyheter/lokalt/blekinge/kollapsen-i-regionstyret-alla-samarbeten-avbrutna",
+          "source": "SVT Nyheter"
+        },
+        {
+          "title": "Ingen ny akut före valet – politiker bryter flera löften",
+          "url": "https://www.sverigesradio.se/artikel/ingen-ny-akut-fore-valet-politiker-bryter-flera-loften",
+          "source": "Sveriges Radio"
+        },
+        {
+          "title": "Efter sprickan i regionen: M och SD i Karlshamn bekänner färg",
+          "url": "https://www.sydostran.se/karlshamn/efter-sprickan-i-regionen-m-och-sd-i-karlshamn-bekanner-farg/",
+          "source": "Sydöstran"
+        }
+      ],
+      "whyNow": "Kollapsen i regionstyret – alla samarbeten avbrutna"
+    },
+    {
+      "topic": "emil bemström",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "regionLabel": "Sweden",
+      "trendScoreRaw": 200,
+      "approxTraffic": "200+",
+      "timestamp": "2026-04-09T17:07:18.966Z",
+      "publishedAt": "Thu, 9 Apr 2026 08:40:00 -0700",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQb26JCRRjH3A3y3DReYRTekV77U9zOddDOCJoMTHVOwhyOd5NbW35cufI2Tdw",
+      "pictureSource": "Expressen",
+      "news": [
+        {
+          "title": "✓ Bemströms val ✓ Kovacs jagas i Tjeckien ✓ Målvakten lämnar ✓ Ljunghs klubbval",
+          "url": "https://www.expressen.se/sport/hockey/shl/sillyrummet-nobbar-shl-for-schweiz--jagar-lhc-stjarnan--han-lamnar-hv71/",
+          "source": "Expressen"
+        },
+        {
+          "title": "Uppgifter: Stjärnforwarden nobbar återkomst till DIF",
+          "url": "https://hockeysverige.se/shl/uppgifter-stjarnforwarden-emil-bemstrom-nobbar-aterkomst-till-djurgarden/",
+          "source": "hockeysverige.se"
+        },
+        {
+          "title": "Bemström to stay, HCAP&apos;s Dario Wüthrich on SCB&apos;s wish list?",
+          "url": "https://swisshockeynews.ch/en/shn/men/swiss-hockey/nl/bemstroem-to-stay-hcaps-dario-wuethrich-on-scbs-wish-list",
+          "source": "swisshockeynews.ch"
+        }
+      ],
+      "whyNow": "✓ Bemströms val ✓ Kovacs jagas i Tjeckien ✓ Målvakten lämnar ✓ Ljunghs klubbval"
+    },
+    {
+      "topic": "scooter braun",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "regionLabel": "Sweden",
+      "trendScoreRaw": 100,
+      "approxTraffic": "100+",
+      "timestamp": "2026-04-09T17:07:18.966Z",
+      "publishedAt": "Thu, 9 Apr 2026 08:40:00 -0700",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg6eVR-a8s69jJVBI4khx_vTLVR1yhXk3kql-bNG5g0AXca9yIn76a-nVP8Rw",
+      "pictureSource": "InStyle",
+      "news": [
+        {
+          "title": "Sydney Sweeney Ditches Signature Loose Waves for Tight Shirley Temple Curls for Scooter Braun Easter Date",
+          "url": "https://www.instyle.com/sydney-sweeney-tight-curls-baseball-cap-scooter-braun-easter-dinner-date-11943953",
+          "source": "InStyle"
+        },
+        {
+          "title": "Scooter Braun Supports Sydney Sweeney at &apos;Euphoria&apos; Premiere, Seen Walking Hand-in-Hand in New Photos",
+          "url": "https://www.imdb.com/fr/news/ni65787146/?ref_=nwc_art_perm",
+          "source": "IMDb"
+        },
+        {
+          "title": "Rare details of Sydney Sweeney and Scooter Braun&apos;s relationship revealed, as she meets kids",
+          "url": "https://thetab.com/2026/04/09/rare-details-of-sydney-sweeney-and-scooter-brauns-relationship-revealed-as-she-meets-kids",
+          "source": "The Tab"
+        }
+      ],
+      "whyNow": "Sydney Sweeney Ditches Signature Loose Waves for Tight Shirley Temple Curls for Scooter Braun Easter Date"
+    },
+    {
+      "topic": "svenska fotbollförbundet",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "regionLabel": "Sweden",
+      "trendScoreRaw": 500,
+      "approxTraffic": "500+",
+      "timestamp": "2026-04-09T17:07:18.966Z",
+      "publishedAt": "Thu, 9 Apr 2026 08:30:00 -0700",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQmlI7Jh_WNzI6SIrSOjtwfJQtcxBYrrh2MoqncDTv8ZExcb-cUY31tam_SN8Q",
+      "pictureSource": "Aftonbladet",
+      "news": [
+        {
+          "title": "SvFF:s varning till fansen: ”Åk inte hit!”",
+          "url": "https://www.aftonbladet.se/sportbladet/fotboll/a/5p8nw1/svenska-varningen-infor-fotbolls-vm-ak-inte-hit",
+          "source": "Aftonbladet"
+        },
+        {
+          "title": "Olof Lundh: Svettig jakt på nya intäkter",
+          "url": "https://www.di.se/nyheter/svettig-jakt-pa-nya-intakter/",
+          "source": "DI"
+        },
+        {
+          "title": "Rusning efter biljetter till Sveriges VM-matcher",
+          "url": "https://www.gp.se/sport/fotboll/rusning-efter-svenska-vm-biljetter-fler-ansokningar-an-platser.f5c12f31-6aab-4dd9-9bf5-70e4ef169aff",
+          "source": "GP"
+        }
+      ],
+      "whyNow": "SvFF:s varning till fansen: ”Åk inte hit!”"
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+console.log(`Running trend video MVP for region: ${process.env.TREND_REGION || 'SE'}`);
+
 import './fetch-trends.js';
 setTimeout(async () => {
   await import('./score-topics.js');

@@ -1,0 +1,10 @@
+{
+  "createdAt": "2026-04-09T17:07:24.335Z",
+  "status": "provider-ready",
+  "provider": "not-configured",
+  "voiceId": "default",
+  "script": "Alla pratar om Six Flags Magic Mountain just nu, men här är varför det faktiskt betyder något. Parken har just rapporterat en förlust på 533 miljoner dollar! 🚨 Det handlar inte bara om pengar – det påverkar hela nöjesparksindustrin. Stängningar, färre besökare och minskad investering kan leda till färre nya attraktioner. 🎢 Och vi vet alla hur mycket vi älskar vårt nöjesparksbesök! Det här kan betyda färre roliga upplevelser för oss i framtiden. Så, nästa gång du hör om Six Flags, tänk på vad det betyder för hela branschen! 💔",
+  "scriptLength": 533,
+  "note": "TTS credentials detected. Ready to connect real provider call.",
+  "nextAction": "Implement provider-specific request and save returned audio file."
+}

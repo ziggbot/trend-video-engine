@@ -1,0 +1,35 @@
+{
+  "createdAt": "2026-04-09T17:07:37.189Z",
+  "status": "scaffolded",
+  "format": "youtube-short-9x16",
+  "durationTargetSeconds": 30,
+  "sourceBrief": "content-brief-1775754451836.json",
+  "scenes": [
+    {
+      "type": "hook-card",
+      "text": "The Punisher: One Last Kill - vad handlar det om?",
+      "durationSeconds": 4
+    },
+    {
+      "type": "explainer-card",
+      "text": "Trailern lovar action och dödsfall!",
+      "durationSeconds": 7
+    },
+    {
+      "type": "context-card",
+      "text": "Punisher är mer än en superhjälte.",
+      "durationSeconds": 9
+    },
+    {
+      "type": "cta-card",
+      "text": "Se Frank Castle konfrontera sina demoner!",
+      "durationSeconds": 4
+    }
+  ],
+  "assetsNeeded": {
+    "voiceover": true,
+    "captions": true,
+    "backgroundVisual": true
+  },
+  "note": "Next step is implementing actual rendering with ffmpeg, Remotion, or HTML capture."
+}

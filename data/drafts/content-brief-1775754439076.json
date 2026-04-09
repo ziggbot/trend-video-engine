@@ -1,0 +1,38 @@
+{
+  "topic": "six flags magic mountain",
+  "why_now": "Six Flags Magic Mountain takes a $533 million hit",
+  "audience_angle": "Förklara snabbt varför folk pratar om detta och varför det spelar roll.",
+  "hook": "Alla pratar om six flags magic mountain just nu, men här är varför det faktiskt betyder något.",
+  "title": "six flags magic mountain, förklarat på 30 sekunder",
+  "script_30s": "Alla pratar om Six Flags Magic Mountain just nu, men här är varför det faktiskt betyder något. Parken har just rapporterat en förlust på 533 miljoner dollar! 🚨 Det handlar inte bara om pengar – det påverkar hela nöjesparksindustrin. Stängningar, färre besökare och minskad investering kan leda till färre nya attraktioner. 🎢 Och vi vet alla hur mycket vi älskar vårt nöjesparksbesök! Det här kan betyda färre roliga upplevelser för oss i framtiden. Så, nästa gång du hör om Six Flags, tänk på vad det betyder för hela branschen! 💔",
+  "voice_style": "clear, energetic, credible",
+  "visual_direction": [
+    "big hook text first 2 seconds",
+    "3 fast explainer cards",
+    "clean subtitle pacing",
+    "end with a curiosity CTA"
+  ],
+  "youtube": {
+    "title": "Därför pratar alla om Six Flags Magic Mountain!",
+    "description": "Kort förklaring av varför six flags magic mountain trendar just nu.",
+    "tags": [
+      "trending",
+      "nyheter",
+      "förklaring",
+      "shorts"
+    ]
+  },
+  "review": {
+    "status": "draft",
+    "notes": "Script generated with OpenAI. Needs human check for factual accuracy and tone before publishing."
+  },
+  "generationMode": "openai",
+  "caption_chunks": [
+    "Six Flags Magic Mountain på tapeten!",
+    "533 miljoner dollar i förlust!",
+    "Vad betyder det för nöjesparker?",
+    "Mindre investeringar = Färre attraktioner.",
+    "Vi älskar våra nöjesparker!",
+    "Tänk på framtiden!"
+  ]
+}

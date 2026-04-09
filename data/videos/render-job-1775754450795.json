@@ -1,0 +1,35 @@
+{
+  "createdAt": "2026-04-09T17:07:30.795Z",
+  "status": "scaffolded",
+  "format": "youtube-short-9x16",
+  "durationTargetSeconds": 30,
+  "sourceBrief": "content-brief-1775754445247.json",
+  "scenes": [
+    {
+      "type": "hook-card",
+      "text": "Alla pratar om 'The Punisher: One Last Kill'!",
+      "durationSeconds": 4
+    },
+    {
+      "type": "explainer-card",
+      "text": "Men varför betyder det något?",
+      "durationSeconds": 7
+    },
+    {
+      "type": "context-card",
+      "text": "Det handlar om en djupt känslomässig resa.",
+      "durationSeconds": 9
+    },
+    {
+      "type": "cta-card",
+      "text": "Intensiva scener och många dödsfall!",
+      "durationSeconds": 4
+    }
+  ],
+  "assetsNeeded": {
+    "voiceover": true,
+    "captions": true,
+    "backgroundVisual": true
+  },
+  "note": "Next step is implementing actual rendering with ffmpeg, Remotion, or HTML capture."
+}

@@ -1,0 +1,10 @@
+{
+  "createdAt": "2026-04-09T17:07:30.792Z",
+  "status": "provider-ready",
+  "provider": "not-configured",
+  "voiceId": "default",
+  "script": "Alla pratar om 'The Punisher: One Last Kill' just nu. Men varför? Det handlar om mer än bara action och dödande. Den här filmen lovar en djupt känslomässig resa för Frank Castle. Efter år av kamp mot orättvisor får vi se hans sista strid. Fans är nyfikna på hur hans historia slutar, och om vi verkligen får se den hämnd han förtjänar. Trailerna visar upp intensiva scener och lovar många dödsfall. Det här är inte bara underhållning; det speglar kampen för rättvisa i vår egen värld. Så, är du redo för det sista kapitlet?",
+  "scriptLength": 523,
+  "note": "TTS credentials detected. Ready to connect real provider call.",
+  "nextAction": "Implement provider-specific request and save returned audio file."
+}
