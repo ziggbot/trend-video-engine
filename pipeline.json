@@ -1,0 +1,41 @@
+{
+  "name": "trend-video-engine",
+  "mode": "semi-auto",
+  "steps": [
+    {
+      "id": "find_trends",
+      "label": "Find trending topics",
+      "status": "planned"
+    },
+    {
+      "id": "score_topics",
+      "label": "Score topics for audience potential",
+      "status": "planned"
+    },
+    {
+      "id": "write_script",
+      "label": "Generate 30-second script",
+      "status": "planned"
+    },
+    {
+      "id": "generate_voiceover",
+      "label": "Generate voiceover",
+      "status": "planned"
+    },
+    {
+      "id": "render_video",
+      "label": "Render short video",
+      "status": "planned"
+    },
+    {
+      "id": "human_review",
+      "label": "Manual approval before upload",
+      "status": "required"
+    },
+    {
+      "id": "publish_youtube",
+      "label": "Upload to YouTube",
+      "status": "planned"
+    }
+  ]
+}

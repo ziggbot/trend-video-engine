@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-04-09T15:00:14.982Z",
+  "ranked": [
+    {
+      "topic": "Ny AI-funktion i sociala medier",
+      "source": "mock-google-trends",
+      "region": "SE",
+      "trendScoreRaw": 94,
+      "timestamp": "2026-04-09T15:00:14.871Z",
+      "whyNow": "Många pratar om hur AI ändrar vardagsappar just nu.",
+      "scoring": {
+        "novelty": 9,
+        "emotion": 8,
+        "clarity": 9,
+        "explainability": 8,
+        "ctrPotential": 9
+      },
+      "totalScore": 86.5
+    },
+    {
+      "topic": "Svenska bolag satsar på kärnkraft igen",
+      "source": "mock-google-trends",
+      "region": "SE",
+      "trendScoreRaw": 88,
+      "timestamp": "2026-04-09T15:00:14.872Z",
+      "whyNow": "Energifrågan driver stark opinion och delningar.",
+      "scoring": {
+        "novelty": 9,
+        "emotion": 8,
+        "clarity": 9,
+        "explainability": 8,
+        "ctrPotential": 9
+      },
+      "totalScore": 86.5
+    },
+    {
+      "topic": "Ny viral hälsotrend på TikTok",
+      "source": "mock-google-trends",
+      "region": "SE",
+      "trendScoreRaw": 86,
+      "timestamp": "2026-04-09T15:00:14.872Z",
+      "whyNow": "Kortformat + hälsa brukar dra publik snabbt.",
+      "scoring": {
+        "novelty": 9,
+        "emotion": 8,
+        "clarity": 9,
+        "explainability": 8,
+        "ctrPotential": 9
+      },
+      "totalScore": 86.5
+    }
+  ]
+}

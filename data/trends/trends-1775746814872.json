@@ -1,0 +1,28 @@
+{
+  "trends": [
+    {
+      "topic": "Ny AI-funktion i sociala medier",
+      "source": "mock-google-trends",
+      "region": "SE",
+      "trendScoreRaw": 94,
+      "timestamp": "2026-04-09T15:00:14.871Z",
+      "whyNow": "Många pratar om hur AI ändrar vardagsappar just nu."
+    },
+    {
+      "topic": "Svenska bolag satsar på kärnkraft igen",
+      "source": "mock-google-trends",
+      "region": "SE",
+      "trendScoreRaw": 88,
+      "timestamp": "2026-04-09T15:00:14.872Z",
+      "whyNow": "Energifrågan driver stark opinion och delningar."
+    },
+    {
+      "topic": "Ny viral hälsotrend på TikTok",
+      "source": "mock-google-trends",
+      "region": "SE",
+      "trendScoreRaw": 86,
+      "timestamp": "2026-04-09T15:00:14.872Z",
+      "whyNow": "Kortformat + hälsa brukar dra publik snabbt."
+    }
+  ]
+}

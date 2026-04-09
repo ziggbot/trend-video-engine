@@ -1,0 +1,13 @@
+{
+  "name": "trend-video-engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch:trends": "node src/fetch-trends.js",
+    "score:topics": "node src/score-topics.js",
+    "generate:brief": "node src/generate-brief.js",
+    "generate:script": "node src/generate-script.js",
+    "run:mvp": "node src/run-mvp.js"
+  }
+}

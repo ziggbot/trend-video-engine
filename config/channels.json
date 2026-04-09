@@ -1,0 +1,15 @@
+{
+  "default": {
+    "language": "sv",
+    "niche": "general viral explainer",
+    "tone": "curious, sharp, punchy, easy to understand",
+    "audience": "broad Swedish audience scrolling short-form video",
+    "ctaStyle": "light",
+    "forbiddenTopics": [
+      "graphic violence",
+      "explicit self-harm encouragement",
+      "medical misinformation",
+      "hate content"
+    ]
+  }
+}
