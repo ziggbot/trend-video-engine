@@ -1,0 +1,375 @@
+{
+  "generatedAt": "2026-04-09T15:10:13.818Z",
+  "ranked": [
+    {
+      "topic": "mjällby aif",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "trendScoreRaw": 100,
+      "approxTraffic": "100+",
+      "timestamp": "2026-04-09T15:10:13.524Z",
+      "publishedAt": "Thu, 9 Apr 2026 07:10:00 -0700",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ78Amx_T6qUHRWq8s57eBcRLsgsNXIV1NlnISxtIpHpdkpNMU8DIhHv8vKWTw",
+      "pictureSource": "SvenskaFans.com",
+      "news": [
+        {
+          "title": "Inför Mjällby AIF - Örgryte IS",
+          "url": "https://www.svenskafans.com/fotboll/infor-mjallby-aif-orgryte-is-694015",
+          "source": "SvenskaFans.com"
+        },
+        {
+          "title": "Information till bortamatchen mot Mjällby AIF",
+          "url": "https://oisfotboll.se/2026/04/09/information-till-bortamatchen-mot-mjallby-aif/",
+          "source": "ÖIS Fotboll"
+        },
+        {
+          "title": "Mjällby – Örgryte: TV & stream, startelvor, statistik och senaste nytt",
+          "url": "https://news.bet365.com/sv-sv/article/mjallby-orgryte-tv-stream-startelvor-statistik-senaste-nytt/2026040709503423509",
+          "source": "news.bet365.com"
+        }
+      ],
+      "whyNow": "Inför Mjällby AIF - Örgryte IS",
+      "scoring": {
+        "novelty": 10,
+        "emotion": 8,
+        "clarity": 9,
+        "explainability": 8,
+        "ctrPotential": 9
+      },
+      "totalScore": 89
+    },
+    {
+      "topic": "michael lindqvist",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "trendScoreRaw": 200,
+      "approxTraffic": "200+",
+      "timestamp": "2026-04-09T15:10:13.522Z",
+      "publishedAt": "Thu, 9 Apr 2026 07:50:00 -0700",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQIFlmwhjF7smH5M-NPI4vxFD3mfkus3SO3Pt9Wm_6flNtahoNk5hT_3C1N1a4",
+      "pictureSource": "Expressen",
+      "news": [
+        {
+          "title": "Avslöjar: Lindqvist lämnar Leksand – klar för ny klubb",
+          "url": "https://www.expressen.se/sport/hockey/shl/lindqvist-lamnar-leksand-klar-for-tappara/",
+          "source": "Expressen"
+        },
+        {
+          "title": "Lämnar LIF, nobbar Örebro – hit drar \"Linkan\"",
+          "url": "https://hockeynews.se/nyheter/lamnar-lif-nobbar-orebro-hit-drar-linkan",
+          "source": "Hockeynews"
+        },
+        {
+          "title": "UPPGIFTER: Tidigare FBK-stjärnan klar för utlandsäventyr",
+          "url": "https://www.nwt.se/2026/04/09/tidigare-fbk-stjarnan-klar-for-utlandsaventyr-596d7/",
+          "source": "NWT"
+        }
+      ],
+      "whyNow": "Avslöjar: Lindqvist lämnar Leksand – klar för ny klubb",
+      "scoring": {
+        "novelty": 10,
+        "emotion": 6,
+        "clarity": 9,
+        "explainability": 8,
+        "ctrPotential": 8
+      },
+      "totalScore": 83
+    },
+    {
+      "topic": "rolf alsing",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "trendScoreRaw": 2000,
+      "approxTraffic": "2000+",
+      "timestamp": "2026-04-09T15:10:13.523Z",
+      "publishedAt": "Thu, 9 Apr 2026 07:10:00 -0700",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSE2ndTcw-s30ZPISCOJcxgDmEUfF7Jh3UwHH3UKUgPGB7IOkGsZ6erkTyXMVE",
+      "pictureSource": "Aftonbladet",
+      "news": [
+        {
+          "title": "Journalisten och publicisten Rolf Alsing är död",
+          "url": "https://www.aftonbladet.se/nyheter/a/n19w8o/journalisten-och-publicisten-rolf-alsing-ar-dod",
+          "source": "Aftonbladet"
+        },
+        {
+          "title": "Journalisten Rolf Alsing är död",
+          "url": "https://www.expressen.se/nyheter/sverige/journalisten-rolf-alsing-ar-dod/",
+          "source": "Expressen"
+        },
+        {
+          "title": "Aftonbladets tidigare chefredaktör Rolf Alsing död",
+          "url": "https://www.sverigesradio.se/artikel/aftonbladets-tidigare-chefredaktor-rolf-alsing-dod",
+          "source": "Sveriges Radio"
+        }
+      ],
+      "whyNow": "Journalisten och publicisten Rolf Alsing är död",
+      "scoring": {
+        "novelty": 10,
+        "emotion": 6,
+        "clarity": 9,
+        "explainability": 8,
+        "ctrPotential": 8
+      },
+      "totalScore": 83
+    },
+    {
+      "topic": "luleå",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "trendScoreRaw": 100,
+      "approxTraffic": "100+",
+      "timestamp": "2026-04-09T15:10:13.524Z",
+      "publishedAt": "Thu, 9 Apr 2026 07:00:00 -0700",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ56ZzwFE8ijBmWYBB6a9XPu3wBchCl926LoFaqxfHKbTiicZ8HVPUxJ_JNgo4",
+      "pictureSource": "Aftonbladet",
+      "news": [
+        {
+          "title": "Senare matchstart – efter midnattsrysaren",
+          "url": "https://www.aftonbladet.se/sportbladet/hockey/a/16o70l/senare-matchstart-i-skelleftealulea-pa-grund-av-tv4",
+          "source": "Aftonbladet"
+        },
+        {
+          "title": "Uppgifter: AIK-stjärnan missar kommande slutspelsmatcher",
+          "url": "https://www.norran.se/sport/ishockey/artikel/uppgifter-aik-stjarnan-missar-kommande-slutspelsmatcher/lzzg9m1l",
+          "source": "Norran"
+        },
+        {
+          "title": "Avslöjar: Så länge blir Pudas borta – efter semifinalsmällen",
+          "url": "https://www.nsd.se/sport/ishockey/artikel/avslojar-sa-lange-blir-pudas-borta-efter-semifinalsmallen/l723gz0j",
+          "source": "NSD"
+        }
+      ],
+      "whyNow": "Senare matchstart – efter midnattsrysaren",
+      "scoring": {
+        "novelty": 10,
+        "emotion": 6,
+        "clarity": 9,
+        "explainability": 8,
+        "ctrPotential": 8
+      },
+      "totalScore": 83
+    },
+    {
+      "topic": "väpnad styrka",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "trendScoreRaw": 200,
+      "approxTraffic": "200+",
+      "timestamp": "2026-04-09T15:10:13.524Z",
+      "publishedAt": "Thu, 9 Apr 2026 06:50:00 -0700",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSpimlCyJ-0KzClgS-IR6riEEsIXzvpUR3MOW_jLC4rtAzw40Q2IYNZuqsKQAU",
+      "pictureSource": "Dagens Nyheter",
+      "news": [
+        {
+          "title": "DN Direkt – Journalisten Rolf Alsing är död",
+          "url": "https://www.dn.se/direkt/2026-04-09/journalisten-rolf-alsing-ar-dod/",
+          "source": "Dagens Nyheter"
+        },
+        {
+          "title": "Svensk väpnad styrka ska stärka Nato i Finland",
+          "url": "https://www.aftonbladet.se/nyheter/a/ArbLeE/svensk-vapnad-styrka-ska-starka-nato-i-finland",
+          "source": "Aftonbladet"
+        },
+        {
+          "title": "”Svensk väpnad styrka till Finland”",
+          "url": "https://www.svd.se/a/5p8Jqm/ministrar-vapnad-styrka-i-finland-ar-nasta-nasta-steg-for-att-starka-forsvaret",
+          "source": "Svenska Dagbladet"
+        }
+      ],
+      "whyNow": "DN Direkt – Journalisten Rolf Alsing är död",
+      "scoring": {
+        "novelty": 10,
+        "emotion": 6,
+        "clarity": 9,
+        "explainability": 8,
+        "ctrPotential": 8
+      },
+      "totalScore": 83
+    },
+    {
+      "topic": "örnsköldsviks allehanda",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "trendScoreRaw": 200,
+      "approxTraffic": "200+",
+      "timestamp": "2026-04-09T15:10:13.524Z",
+      "publishedAt": "Thu, 9 Apr 2026 06:30:00 -0700",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlHxrBZvXn62iIjBDzJ8IszYpjcQDQlVFrCR6tLmqZknnAfX8iMCeKk5MKtVk",
+      "pictureSource": "Allehanda.se",
+      "news": [
+        {
+          "title": "LISTA: Det här händer i Ö-vik",
+          "url": "https://www.allehanda.se/lista-det-har-hander-i-o-vik/",
+          "source": "Allehanda.se"
+        },
+        {
+          "title": "Ishockey: Tyler Keheller briljerade igen – Modo kvitterade semifinalserien mot Karlskoga",
+          "url": "https://www.svt.se/sport/ishockey/tyler-keheller-briljerade-igen-modo-kvitterade-semifinalserien-mot-karlskoga",
+          "source": "SVT Nyheter"
+        },
+        {
+          "title": "Går mot utsålt",
+          "url": "https://www.allehanda.se/sport/gar-mot-utsalt/",
+          "source": "Allehanda.se"
+        }
+      ],
+      "whyNow": "LISTA: Det här händer i Ö-vik",
+      "scoring": {
+        "novelty": 10,
+        "emotion": 6,
+        "clarity": 9,
+        "explainability": 8,
+        "ctrPotential": 8
+      },
+      "totalScore": 83
+    },
+    {
+      "topic": "rikard jermsten",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "trendScoreRaw": 200,
+      "approxTraffic": "200+",
+      "timestamp": "2026-04-09T15:10:13.524Z",
+      "publishedAt": "Thu, 9 Apr 2026 06:30:00 -0700",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR17Dqs4tOt40md9JKNWFYC5z7gHtuKsGaoggtitn2mMT9e6TNubhcMRHWS2Zs",
+      "pictureSource": "Aftonbladet",
+      "news": [
+        {
+          "title": "EBM-chef tar över Kriminalvården",
+          "url": "https://www.aftonbladet.se/nyheter/a/Rr77qd/aftonbladet-direkt?pinnedEntry=1456972",
+          "source": "Aftonbladet"
+        },
+        {
+          "title": "DN Direkt – Han blir ny chef för Kriminalvården",
+          "url": "https://www.dn.se/direkt/2026-04-09/han-blir-ny-chef-for-kriminalvarden/",
+          "source": "Dagens Nyheter"
+        },
+        {
+          "title": "Ekobrottschef tar över som chef för Kriminalvården",
+          "url": "https://omni.se/ekobrottschef-tar-over-som-chef-for-kriminalvarden/a/lnKV5G",
+          "source": "Omni"
+        }
+      ],
+      "whyNow": "EBM-chef tar över Kriminalvården",
+      "scoring": {
+        "novelty": 10,
+        "emotion": 6,
+        "clarity": 9,
+        "explainability": 8,
+        "ctrPotential": 8
+      },
+      "totalScore": 83
+    },
+    {
+      "topic": "ludvig jansson",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "trendScoreRaw": 200,
+      "approxTraffic": "200+",
+      "timestamp": "2026-04-09T15:10:13.524Z",
+      "publishedAt": "Thu, 9 Apr 2026 06:30:00 -0700",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ2MFv3udISpJlhwhhBONkMmhuNmPfcP8BlKs8dWhL3SuSpdbbaPnIkT60HJ_Q",
+      "pictureSource": "Yahoo Sports",
+      "news": [
+        {
+          "title": "Another NHL Debut? Florida Panthers Call Up Rookie Defenseman",
+          "url": "https://sports.yahoo.com/articles/another-nhl-debut-florida-panthers-110000192.html",
+          "source": "Yahoo Sports"
+        },
+        {
+          "title": "Tobias Bjornfot News: Called up from minors",
+          "url": "https://www.rotowire.com/hockey/headlines/tobias-bjornfot-news-called-up-from-minors-588246",
+          "source": "RotoWire"
+        },
+        {
+          "title": "Panthers Assign Mikulas Hovorka to Checkers",
+          "url": "https://charlottecheckers.com/articles/panthers-assign-mikulas-hovorka-to-checkers",
+          "source": "Charlotte Checkers"
+        }
+      ],
+      "whyNow": "Another NHL Debut? Florida Panthers Call Up Rookie Defenseman",
+      "scoring": {
+        "novelty": 10,
+        "emotion": 6,
+        "clarity": 9,
+        "explainability": 8,
+        "ctrPotential": 8
+      },
+      "totalScore": 83
+    },
+    {
+      "topic": "traktor",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "trendScoreRaw": 500,
+      "approxTraffic": "500+",
+      "timestamp": "2026-04-09T15:10:13.524Z",
+      "publishedAt": "Thu, 9 Apr 2026 06:20:00 -0700",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ24jYsZ_uEaptgz6uzd61B1dU8GBXNCwJAUQYr91s8Xdy06XHywsVFJpyGnns",
+      "pictureSource": "shz.de",
+      "news": [
+        {
+          "title": "Unfall bei Schönwalde: Traktor kippt um, Fahrer verletzt",
+          "url": "https://www.shz.de/lokales/eutin-ostholstein/artikel/unfall-bei-schoenwalde-traktor-kippt-um-fahrer-verletzt-50495363",
+          "source": "shz.de"
+        },
+        {
+          "title": "Unfall in Stolperhufen: Traktor kippt um, Fahrer nur leicht verletzt",
+          "url": "https://www.ln-online.de/lokales/ostholstein/unfall-in-stolperhufen-traktor-kippt-um-fahrer-nur-leicht-verletzt-4ff5cb3e-0865-47b6-9cba-e4ac3fecfae5.html",
+          "source": "Lübecker Nachrichten"
+        },
+        {
+          "title": "Unfall in Stolperhufen: Traktor kippt um, Fahrer nur leicht verletzt",
+          "url": "https://www.ln-online.de/lokales/ostholstein/unfall-in-stolperhufen-traktor-kippt-um-fahrer-nur-leicht-verletzt-C6QZ2KHC7BHPPPZSRLMO3QFWZI.html",
+          "source": "Lübecker Nachrichten"
+        }
+      ],
+      "whyNow": "Unfall bei Schönwalde: Traktor kippt um, Fahrer verletzt",
+      "scoring": {
+        "novelty": 10,
+        "emotion": 6,
+        "clarity": 9,
+        "explainability": 8,
+        "ctrPotential": 8
+      },
+      "totalScore": 83
+    },
+    {
+      "topic": "djurgårdens if fotboll",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "trendScoreRaw": 500,
+      "approxTraffic": "500+",
+      "timestamp": "2026-04-09T15:10:13.524Z",
+      "publishedAt": "Thu, 9 Apr 2026 06:10:00 -0700",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa39mTXFhFpV_Al-v4xwCrMf3wDdy27d9FS5ISncywcWqyqL-3Hp-qJWsbvNk",
+      "pictureSource": "Aftonbladet",
+      "news": [
+        {
+          "title": "”Skäms ju att vi spelar i samma lag...”",
+          "url": "https://www.aftonbladet.se/sportbladet/fotboll/a/Wvgjqr/alexander-andersson-pasklovstranar-med-djurgarden",
+          "source": "Aftonbladet"
+        },
+        {
+          "title": "Haarala tillbaka hos Djurgården - och Andersson med gästspel",
+          "url": "https://www.fotbollskanalen.se/artiklar/allsvenskan/haarala-tillbaka-hos-djurgarden---och-andersson-med-gastspel",
+          "source": "Fotbollskanalen"
+        },
+        {
+          "title": "Santeri Haarala närmar sig comeback – tränar vid sidan av laget med Djurgården",
+          "url": "https://bollsvenskan.se/santeri-haarala-narmar-sig-comeback-tranar-vid-sidan-av-laget-med-djurgarden/",
+          "source": "Bollsvenskan"
+        }
+      ],
+      "whyNow": "”Skäms ju att vi spelar i samma lag...”",
+      "scoring": {
+        "novelty": 10,
+        "emotion": 6,
+        "clarity": 9,
+        "explainability": 8,
+        "ctrPotential": 8
+      },
+      "totalScore": 83
+    }
+  ]
+}
