@@ -1,0 +1,38 @@
+{
+  "topic": "michael lindqvist",
+  "why_now": "Avslöjar: Lindqvist lämnar Leksand – klar för ny klubb",
+  "audience_angle": "Förklara snabbt varför folk pratar om detta och varför det spelar roll.",
+  "hook": "Alla pratar om michael lindqvist just nu, men här är varför det faktiskt betyder något.",
+  "title": "michael lindqvist, förklarat på 30 sekunder",
+  "script_30s": "Alla pratar om michael lindqvist just nu, men här är varför det faktiskt betyder något. michael lindqvist trendar just nu, och det handlar inte bara om att många söker, utan om att ämnet träffar något som folk redan känner eller oroar sig för. Avslöjar: Lindqvist lämnar Leksand – klar för ny klubb Förklara snabbt varför folk pratar om detta och varför det spelar roll. Det här är exakt typen av ämne som exploderar i kortformat när det paketeras tydligt och snabbt. Vill du ha fler snabba förklaringar av det som trendar just nu, följ för nästa video.",
+  "voice_style": "clear, energetic, credible",
+  "visual_direction": [
+    "big hook text first 2 seconds",
+    "3 fast explainer cards",
+    "clean subtitle pacing",
+    "end with a curiosity CTA"
+  ],
+  "youtube": {
+    "title": "michael lindqvist på 30 sekunder",
+    "description": "Kort förklaring av varför michael lindqvist trendar just nu.",
+    "tags": [
+      "trending",
+      "nyheter",
+      "förklaring",
+      "shorts"
+    ]
+  },
+  "review": {
+    "status": "draft",
+    "notes": "Fallback script generated locally. Needs human check for factual accuracy and tone before publishing."
+  },
+  "generationMode": "fallback",
+  "generationError": "OpenAI error 429: {\n    \"error\": {\n        \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\",\n        \"type\": \"insufficient_quota\",\n        \"param\": null,\n        \"code\": \"insufficient_quota\"\n    }\n}\n",
+  "caption_chunks": [
+    "Alla pratar om michael lindqvist just nu, men här är varför det faktiskt betyder något.",
+    "michael lindqvist trendar just nu",
+    "Avslöjar: Lindqvist lämnar Leksand – klar för ny klubb",
+    "Det här exploderar i kortformat",
+    "Följ för nästa trend"
+  ]
+}
