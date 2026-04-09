@@ -1,0 +1,36 @@
+{
+  "topic": "elon musk",
+  "why_now": "Elon Musk Asks for OpenAI’s Nonprofit to Get Any Damages From His Lawsuit",
+  "audience_angle": "Förklara snabbt varför folk pratar om detta och varför det spelar roll.",
+  "hook": "Alla pratar om elon musk just nu, men här är varför det faktiskt betyder något.",
+  "title": "elon musk, förklarat på 30 sekunder",
+  "script_30s": "Alla pratar om Elon Musk just nu, men här är varför det faktiskt betyder något. Elon Musk har bett OpenAI’s ideella organisation att ta ansvar för skadorna från sin senaste rättegång. Många ser detta som ett stort steg i AI-debatten. Musk vill säkerställa att företag håller sig ansvariga för sina innovationer. Det handlar inte bara om pengar - det handlar om etik och framtiden för teknik. Så nästa gång du hör om Musk, kom ihåg: det handlar om mer än bara en person - det handlar om vår gemensamma framtid. Häng med i debatten!",
+  "voice_style": "clear, energetic, credible",
+  "visual_direction": [
+    "big hook text first 2 seconds",
+    "3 fast explainer cards",
+    "clean subtitle pacing",
+    "end with a curiosity CTA"
+  ],
+  "youtube": {
+    "title": "Elon Musk och framtiden för AI",
+    "description": "Kort förklaring av varför elon musk trendar just nu.",
+    "tags": [
+      "trending",
+      "nyheter",
+      "förklaring",
+      "shorts"
+    ]
+  },
+  "review": {
+    "status": "draft",
+    "notes": "Script generated with OpenAI. Needs human check for factual accuracy and tone before publishing."
+  },
+  "generationMode": "openai",
+  "caption_chunks": [
+    "Elon Musk är i rampljuset.",
+    "Han ber OpenAI att ta ansvar.",
+    "Vad betyder det för AI och etik?",
+    "Det handlar om vår framtid!"
+  ]
+}

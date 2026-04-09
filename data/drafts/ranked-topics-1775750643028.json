@@ -1,0 +1,395 @@
+{
+  "generatedAt": "2026-04-09T16:04:03.028Z",
+  "ranked": [
+    {
+      "topic": "elon musk",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "trendScoreRaw": 200,
+      "approxTraffic": "200+",
+      "timestamp": "2026-04-09T16:04:02.716Z",
+      "publishedAt": "Thu, 9 Apr 2026 08:10:00 -0700",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScnH6J2M7wTlvCGH-Yurv6HCQPrBUT0WDBTm7-ZbuIh81jhfc5zX-6sYW7wuM",
+      "pictureSource": "WSJ",
+      "news": [
+        {
+          "title": "Elon Musk Asks for OpenAI’s Nonprofit to Get Any Damages From His Lawsuit",
+          "url": "https://www.wsj.com/tech/ai/elon-musk-asks-for-openais-nonprofit-to-get-any-damages-from-his-lawsuit-76089f6f",
+          "source": "WSJ"
+        },
+        {
+          "title": "OpenAI slams Elon Musk&apos;s lawsuit as driven by &apos;ego, jealousy and harassment&apos; after xAI CEO pledges any damages to nonprofit",
+          "url": "https://www.msn.com/en-us/news/technology/openai-slams-elon-musk-s-lawsuit-as-driven-by-ego-jealousy-and-harassment-after-xai-ceo-pledges-any-damages-to-nonprofit/ar-AA20psjh",
+          "source": "MSN"
+        },
+        {
+          "title": "MSFT Stock Today: April 9 Musk Push to Oust Altman Tests OpenAI Tie-Up",
+          "url": "https://meyka.com/blog/msft-stock-today-april-9-musk-push-to-oust-altman-tests-openai-tie-up-0904/",
+          "source": "Meyka"
+        }
+      ],
+      "whyNow": "Elon Musk Asks for OpenAI’s Nonprofit to Get Any Damages From His Lawsuit",
+      "scoring": {
+        "novelty": 7,
+        "emotion": 9,
+        "clarity": 9,
+        "explainability": 8,
+        "swedishRelevance": 9,
+        "sourceStrength": 5,
+        "ctrPotential": 8
+      },
+      "totalScore": 81.4
+    },
+    {
+      "topic": "sydöstran",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "trendScoreRaw": 200,
+      "approxTraffic": "200+",
+      "timestamp": "2026-04-09T16:04:02.714Z",
+      "publishedAt": "Thu, 9 Apr 2026 08:50:00 -0700",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQESZOThITMHLGyjeU3SJswmu_D3kFkOQ27mV8EjmFYqs41sQ6YHkcKiWATVHw",
+      "pictureSource": "Blekinge Läns Tidning",
+      "news": [
+        {
+          "title": "Lämnade politiken – nu blir Morgan chef",
+          "url": "https://www.blt.se/olofstrom/lamnade-politiken-nu-blir-morgan-chef/",
+          "source": "Blekinge Läns Tidning"
+        },
+        {
+          "title": "Här är Morgan Bengtssons nya uppdrag",
+          "url": "https://www.sydostran.se/olofstrom/morgan-bengtssons-nya-uppdrag-blir-chef-for-regionhalsan-underbart/",
+          "source": "Sydöstran"
+        },
+        {
+          "title": "INSÄNDARE: Region Blekinge behöver en Morgan Bengtsson",
+          "url": "https://www.blt.se/insandare/region-blekinge-behover-en-morgan-bengtsson/",
+          "source": "Blekinge Läns Tidning"
+        }
+      ],
+      "whyNow": "Lämnade politiken – nu blir Morgan chef",
+      "scoring": {
+        "novelty": 7,
+        "emotion": 6,
+        "clarity": 9,
+        "explainability": 8,
+        "swedishRelevance": 9,
+        "sourceStrength": 5,
+        "ctrPotential": 8
+      },
+      "totalScore": 75.4
+    },
+    {
+      "topic": "svenska fotbollförbundet",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "trendScoreRaw": 200,
+      "approxTraffic": "200+",
+      "timestamp": "2026-04-09T16:04:02.716Z",
+      "publishedAt": "Thu, 9 Apr 2026 08:30:00 -0700",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQmlI7Jh_WNzI6SIrSOjtwfJQtcxBYrrh2MoqncDTv8ZExcb-cUY31tam_SN8Q",
+      "pictureSource": "Aftonbladet",
+      "news": [
+        {
+          "title": "SvFF:s varning till fansen: ”Åk inte hit!”",
+          "url": "https://www.aftonbladet.se/sportbladet/fotboll/a/5p8nw1/svenska-varningen-infor-fotbolls-vm-ak-inte-hit",
+          "source": "Aftonbladet"
+        },
+        {
+          "title": "Olof Lundh: Svettig jakt på nya intäkter",
+          "url": "https://www.di.se/nyheter/svettig-jakt-pa-nya-intakter/",
+          "source": "DI"
+        },
+        {
+          "title": "Rusning efter biljetter till Sveriges VM-matcher",
+          "url": "https://www.gp.se/sport/fotboll/rusning-efter-svenska-vm-biljetter-fler-ansokningar-an-platser.f5c12f31-6aab-4dd9-9bf5-70e4ef169aff",
+          "source": "GP"
+        }
+      ],
+      "whyNow": "SvFF:s varning till fansen: ”Åk inte hit!”",
+      "scoring": {
+        "novelty": 7,
+        "emotion": 6,
+        "clarity": 9,
+        "explainability": 8,
+        "swedishRelevance": 9,
+        "sourceStrength": 5,
+        "ctrPotential": 8
+      },
+      "totalScore": 75.4
+    },
+    {
+      "topic": "jack berglund",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "trendScoreRaw": 200,
+      "approxTraffic": "200+",
+      "timestamp": "2026-04-09T16:04:02.716Z",
+      "publishedAt": "Thu, 9 Apr 2026 08:20:00 -0700",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQXaaXQzHb0Orsxfc3mPmMCMH9wAZFKVuvNHlgoi53aaDFv6ZpTOyTc6gjmfpk",
+      "pictureSource": "Expressen",
+      "news": [
+        {
+          "title": "Jack Berglund skriver NHL-kontrakt",
+          "url": "https://www.expressen.se/sport/hockey/nhl/jack-berglund-skriver-nhl-kontrakt/",
+          "source": "Expressen"
+        },
+        {
+          "title": "JUST NU: Talangen skriver NHL-kontrakt – öppnar för FBK: ”Ett alternativ”",
+          "url": "https://www.nwt.se/2026/04/09/talangen-skriver-nhl-kontrakt-oppnar-for-fbk-ett-alternativ-3c69c/",
+          "source": "NWT"
+        },
+        {
+          "title": "Jack Berglund har skrivit på för Flyers",
+          "url": "https://www.farjestadbk.se/article/77aatd8-23h01/view",
+          "source": "Färjestad BK"
+        }
+      ],
+      "whyNow": "Jack Berglund skriver NHL-kontrakt",
+      "scoring": {
+        "novelty": 7,
+        "emotion": 6,
+        "clarity": 9,
+        "explainability": 8,
+        "swedishRelevance": 9,
+        "sourceStrength": 5,
+        "ctrPotential": 8
+      },
+      "totalScore": 75.4
+    },
+    {
+      "topic": "masters leaderboard",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "trendScoreRaw": 200,
+      "approxTraffic": "200+",
+      "timestamp": "2026-04-09T16:04:02.716Z",
+      "publishedAt": "Thu, 9 Apr 2026 08:20:00 -0700",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT-9PIdQP8HBRBbUtWjm5kNOAqSowSpfcVCI4v0PE57vFnePmhv6Kt8p6_Du7Y",
+      "pictureSource": "GOLF.com",
+      "news": [
+        {
+          "title": "How to watch the 2026 Masters for FREE all week long",
+          "url": "https://golf.com/news/how-watch-2026-masters-free-all-week/",
+          "source": "GOLF.com"
+        },
+        {
+          "title": "Expert Picks: Masters Tournament",
+          "url": "https://www.pgatour.com/article/news/expert-picks/2026/04/07/who-are-experts-picking-for-the-masters-2026-major-augusta-national-scottie-scheffler-rory-mcilroy",
+          "source": "PGA Tour"
+        },
+        {
+          "title": "The Masters 2026 tee-times: McIlroy, Rahm, Scheffler, DeChambeau & Fleetwood at Augusta",
+          "url": "https://www.bbc.com/sport/golf/articles/crl12d8520eo",
+          "source": "BBC"
+        }
+      ],
+      "whyNow": "How to watch the 2026 Masters for FREE all week long",
+      "scoring": {
+        "novelty": 7,
+        "emotion": 6,
+        "clarity": 9,
+        "explainability": 8,
+        "swedishRelevance": 9,
+        "sourceStrength": 5,
+        "ctrPotential": 8
+      },
+      "totalScore": 75.4
+    },
+    {
+      "topic": "tifo",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "trendScoreRaw": 200,
+      "approxTraffic": "200+",
+      "timestamp": "2026-04-09T16:04:02.716Z",
+      "publishedAt": "Thu, 9 Apr 2026 08:10:00 -0700",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQG5-JxjAUhh5aIpln5Zh6CjRDjCtnm1SjwMt1l0ewhwJJp8G7YDAWNABG7uLI",
+      "pictureSource": "SPORTbible",
+      "news": [
+        {
+          "title": "PSG ultras unveil wild hulk tifo during Liverpool Champions League clash",
+          "url": "https://www.sportbible.com/football/football-news/champions-league/psg-ultras-hulk-tifo-liverpool-530753-20260408",
+          "source": "SPORTbible"
+        },
+        {
+          "title": "🔴 PSG-Liverpool 0-0 | Stunning display, Hulk tears up Reds logo 🔥",
+          "url": "https://onefootball.com/en/news/psg-liverpool-0-0-stunning-display-hulk-tears-up-reds-logo-42680854",
+          "source": "OneFootball"
+        },
+        {
+          "title": "PSG vs Liverpool – The message from the Collectif Ultras Paris for the clash!",
+          "url": "https://www.msn.com/en-sg/news/other/psg-vs-liverpool-the-message-from-the-collectif-ultras-paris-for-the-clash/ar-AA20qunE",
+          "source": "MSN"
+        }
+      ],
+      "whyNow": "PSG ultras unveil wild hulk tifo during Liverpool Champions League clash",
+      "scoring": {
+        "novelty": 7,
+        "emotion": 6,
+        "clarity": 9,
+        "explainability": 8,
+        "swedishRelevance": 9,
+        "sourceStrength": 5,
+        "ctrPotential": 8
+      },
+      "totalScore": 75.4
+    },
+    {
+      "topic": "alex norén",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "trendScoreRaw": 200,
+      "approxTraffic": "200+",
+      "timestamp": "2026-04-09T16:04:02.716Z",
+      "publishedAt": "Thu, 9 Apr 2026 08:10:00 -0700",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRC5ZjgOx7U2DjqiwzAgI4RkbZcF7UN-zJjB8uzXox1Hrk9dKL-syV3kmXTqvU",
+      "pictureSource": "Svensk Golf",
+      "news": [
+        {
+          "title": "Följer Åberg och Norén vägen till birdies?",
+          "url": "https://www.svenskgolf.se/tournytt/foljer-aberg-och-noren-vagen-till-birdies/",
+          "source": "Svensk Golf"
+        },
+        {
+          "title": "”Har aldrig sett något liknande”",
+          "url": "https://www.aftonbladet.se/sportbladet/bloggar/usabloggen/a/q6622E/spelarnas-nya-hus-pa-augusta-national-hyllas",
+          "source": "Aftonbladet"
+        },
+        {
+          "title": "Här är slagen svenskarna älskar på Augusta National",
+          "url": "https://www.svenskgolf.se/tournytt/har-ar-slagen-svenskarna-alskar-pa-augusta-national/",
+          "source": "Svensk Golf"
+        }
+      ],
+      "whyNow": "Följer Åberg och Norén vägen till birdies?",
+      "scoring": {
+        "novelty": 7,
+        "emotion": 6,
+        "clarity": 9,
+        "explainability": 8,
+        "swedishRelevance": 9,
+        "sourceStrength": 5,
+        "ctrPotential": 8
+      },
+      "totalScore": 75.4
+    },
+    {
+      "topic": "skolverket",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "trendScoreRaw": 200,
+      "approxTraffic": "200+",
+      "timestamp": "2026-04-09T16:04:02.716Z",
+      "publishedAt": "Thu, 9 Apr 2026 08:10:00 -0700",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQktn4YMvxXAOfVrZkSI5zIIFsjWcmubf3f10E7uCjA_lAaiqLhsKYludkejHE",
+      "pictureSource": "Vi Lärare",
+      "news": [
+        {
+          "title": "Läroplanshaveriet: M öppnar för att lägga ner Skolverket",
+          "url": "https://www.vilarare.se/amneslararen-svenska-sprak/kursplaner/laroplanshaveriet-m-oppnar-for-att-lagga-ner-skolverket/",
+          "source": "Vi Lärare"
+        },
+        {
+          "title": "Här är en hel skolklass obehöriga till gymnasiet – varje år",
+          "url": "https://www.smalanningen.se/markaryd/man-vill-ta-studenten-med-sina-kompisar/",
+          "source": "Smålänningen"
+        },
+        {
+          "title": "Fyra av tio elever saknade betyg i alla ämnen – nu rycker Skolverket in",
+          "url": "https://www.smalanningen.se/markaryd/fyra-av-tio-elever-saknade-betyg-i-alla-amnen-nu-rycker-skolverket-in/",
+          "source": "Smålänningen"
+        }
+      ],
+      "whyNow": "Läroplanshaveriet: M öppnar för att lägga ner Skolverket",
+      "scoring": {
+        "novelty": 7,
+        "emotion": 6,
+        "clarity": 9,
+        "explainability": 8,
+        "swedishRelevance": 9,
+        "sourceStrength": 5,
+        "ctrPotential": 8
+      },
+      "totalScore": 75.4
+    },
+    {
+      "topic": "scooter braun",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "trendScoreRaw": 100,
+      "approxTraffic": "100+",
+      "timestamp": "2026-04-09T16:04:02.716Z",
+      "publishedAt": "Thu, 9 Apr 2026 08:40:00 -0700",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg6eVR-a8s69jJVBI4khx_vTLVR1yhXk3kql-bNG5g0AXca9yIn76a-nVP8Rw",
+      "pictureSource": "InStyle",
+      "news": [
+        {
+          "title": "Sydney Sweeney Ditches Signature Loose Waves for Tight Shirley Temple Curls for Scooter Braun Easter Date",
+          "url": "https://www.instyle.com/sydney-sweeney-tight-curls-baseball-cap-scooter-braun-easter-dinner-date-11943953",
+          "source": "InStyle"
+        },
+        {
+          "title": "Scooter Braun Supports Sydney Sweeney at &apos;Euphoria&apos; Premiere, Seen Walking Hand-in-Hand in New Photos",
+          "url": "https://www.imdb.com/fr/news/ni65787146/?ref_=nwc_art_perm",
+          "source": "IMDb"
+        },
+        {
+          "title": "Rare details of Sydney Sweeney and Scooter Braun&apos;s relationship revealed, as she meets kids",
+          "url": "https://thetab.com/2026/04/09/rare-details-of-sydney-sweeney-and-scooter-brauns-relationship-revealed-as-she-meets-kids",
+          "source": "The Tab"
+        }
+      ],
+      "whyNow": "Sydney Sweeney Ditches Signature Loose Waves for Tight Shirley Temple Curls for Scooter Braun Easter Date",
+      "scoring": {
+        "novelty": 6,
+        "emotion": 6,
+        "clarity": 9,
+        "explainability": 8,
+        "swedishRelevance": 9,
+        "sourceStrength": 5,
+        "ctrPotential": 8
+      },
+      "totalScore": 73.6
+    },
+    {
+      "topic": "tommy fleetwood",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "trendScoreRaw": 100,
+      "approxTraffic": "100+",
+      "timestamp": "2026-04-09T16:04:02.716Z",
+      "publishedAt": "Thu, 9 Apr 2026 08:20:00 -0700",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHcdd8tvRRtt9vNLU8IpqsIvRhSVMHD9XY-OwurRKCrwg1Af8ptdleWRkf_WY",
+      "pictureSource": "HITC Sport",
+      "news": [
+        {
+          "title": "Rich Beem responds when asked if Tommy Fleetwood will win a major championship in 2026",
+          "url": "https://www.hitc.com/rich-beem-responds-when-asked-if-tommy-fleetwood-will-win-a-major-championship-in-2026/",
+          "source": "HITC Sport"
+        },
+        {
+          "title": "Players have tried all kinds of equipment tricks to crack Augusta National.",
+          "url": "https://www.golfdigest.com/post/tommy-fleetwood-9-wood-masters-2026",
+          "source": "Golf Digest"
+        },
+        {
+          "title": "Watch For These 2 Setup Changes In Pro Bags This Week At The Masters",
+          "url": "https://mygolfspy.com/news-opinion/watch-for-these-2-setup-changes-in-pro-bags-this-week-at-the-masters/",
+          "source": "MyGolfSpy"
+        }
+      ],
+      "whyNow": "Rich Beem responds when asked if Tommy Fleetwood will win a major championship in 2026",
+      "scoring": {
+        "novelty": 6,
+        "emotion": 6,
+        "clarity": 9,
+        "explainability": 8,
+        "swedishRelevance": 9,
+        "sourceStrength": 5,
+        "ctrPotential": 8
+      },
+      "totalScore": 73.6
+    }
+  ]
+}
