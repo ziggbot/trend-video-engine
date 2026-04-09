@@ -1,7 +1,15 @@
 import fs from 'fs/promises';
 import path from 'path';
 
-const FEED_URL = 'https://trends.google.com/trending/rss?geo=SE';
+const regionArg = (process.env.TREND_REGION || 'SE').toUpperCase();
+const regionMap = {
+  SE: { geo: 'SE', label: 'Sweden' },
+  US: { geo: 'US', label: 'USA' },
+  GLOBAL: { geo: 'US', label: 'Global proxy via US feed' }
+};
+
+const selected = regionMap[regionArg] || regionMap.SE;
+const FEED_URL = `https://trends.google.com/trending/rss?geo=${selected.geo}`;
 
 function decodeXml(str = '') {
   return str
@@ -43,24 +51,26 @@ const items = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map((m) => {
   const block = m[1];
   const trafficText = getTag(block, 'ht:approx_traffic');
   const traffic = Number((trafficText.match(/\d+/) || ['0'])[0]);
+  const news = getNewsItems(block);
   return {
     topic: getTag(block, 'title'),
     source: 'google-trends-rss',
-    region: 'SE',
+    region: regionArg,
+    regionLabel: selected.label,
     trendScoreRaw: traffic,
     approxTraffic: trafficText,
     timestamp: new Date().toISOString(),
     publishedAt: getTag(block, 'pubDate'),
     picture: getTag(block, 'ht:picture'),
     pictureSource: getTag(block, 'ht:picture_source'),
-    news: getNewsItems(block),
-    whyNow: getNewsItems(block)[0]?.title || 'Trending on Google Sweden right now.'
+    news,
+    whyNow: news[0]?.title || `Trending on Google ${selected.label} right now.`
   };
 });
 
 const trends = items.slice(0, 10);
 const outDir = path.resolve('data/trends');
 await fs.mkdir(outDir, { recursive: true });
-const file = path.join(outDir, `trends-${Date.now()}.json`);
-await fs.writeFile(file, JSON.stringify({ source: FEED_URL, fetchedAt: new Date().toISOString(), trends }, null, 2));
-console.log(`Saved ${trends.length} Google Trends topics to ${file}`);
+const file = path.join(outDir, `trends-${regionArg}-${Date.now()}.json`);
+await fs.writeFile(file, JSON.stringify({ source: FEED_URL, region: regionArg, regionLabel: selected.label, fetchedAt: new Date().toISOString(), trends }, null, 2));
+console.log(`Saved ${trends.length} Google Trends topics for ${regionArg} to ${file}`);

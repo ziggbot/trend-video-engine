@@ -1,0 +1,308 @@
+{
+  "source": "https://trends.google.com/trending/rss?geo=US",
+  "region": "GLOBAL",
+  "regionLabel": "Global proxy via US feed",
+  "fetchedAt": "2026-04-09T17:01:24.876Z",
+  "trends": [
+    {
+      "topic": "nick taylor",
+      "source": "google-trends-rss",
+      "region": "GLOBAL",
+      "regionLabel": "Global proxy via US feed",
+      "trendScoreRaw": 200,
+      "approxTraffic": "200+",
+      "timestamp": "2026-04-09T17:01:24.873Z",
+      "publishedAt": "Thu, 9 Apr 2026 09:40:00 -0700",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR3bOx7zBpiukEEH7cydGv--jUNfZ1Hqpk7HPMxBWTdHjwD9blhz1FaRb8erkw",
+      "pictureSource": "Axios",
+      "news": [
+        {
+          "title": "UW alum Nick Taylor returns to the Masters",
+          "url": "https://www.axios.com/local/seattle/2026/04/09/uw-alum-nick-taylor-returns-to-the-masters",
+          "source": "Axios"
+        },
+        {
+          "title": "&apos;Feeling good&apos;: Conners, Taylor eyeing breakthrough at the Masters",
+          "url": "https://www.sportsnet.ca/pga-tour/article/feeling-good-conners-taylor-eyeing-breakthrough-at-the-masters/",
+          "source": "Sportsnet"
+        },
+        {
+          "title": "Golf Canada CEO optimistic about Canadian chances at Augusta",
+          "url": "https://www.theglobeandmail.com/sports/golf/article-golf-canada-ceo-optimistic-about-canadian-chances-at-augusta/",
+          "source": "The Globe and Mail"
+        }
+      ],
+      "whyNow": "UW alum Nick Taylor returns to the Masters"
+    },
+    {
+      "topic": "wrongful death lawyer",
+      "source": "google-trends-rss",
+      "region": "GLOBAL",
+      "regionLabel": "Global proxy via US feed",
+      "trendScoreRaw": 2000,
+      "approxTraffic": "2000+",
+      "timestamp": "2026-04-09T17:01:24.874Z",
+      "publishedAt": "Thu, 9 Apr 2026 09:30:00 -0700",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQchkcBtW_HdY47gjuTNkTUh42RZQ3q2eKvSTHPpVVHSJAj34sMFrP_uVZM1PI",
+      "pictureSource": "TMZ",
+      "news": [
+        {
+          "title": "&apos;Deadliest Catch&apos; Deckhand Todd Meadows Cause of Death Revealed",
+          "url": "https://www.tmz.com/2026/04/06/todd-meadows-cause-of-death/",
+          "source": "TMZ"
+        },
+        {
+          "title": "&apos;Deadliest Catch&apos; star Todd Meadows&apos; cause of death revealed",
+          "url": "https://www.usatoday.com/story/entertainment/tv/2026/04/06/todd-meadows-cause-of-death-deadliest-catch/89486397007/",
+          "source": "USA Today"
+        },
+        {
+          "title": "&apos;Deadliest Catch&apos; deckhand cause of death revealed",
+          "url": "https://www.foxnews.com/entertainment/deadliest-catch-deckhand-cause-death-revealed",
+          "source": "Fox News"
+        }
+      ],
+      "whyNow": "&apos;Deadliest Catch&apos; Deckhand Todd Meadows Cause of Death Revealed"
+    },
+    {
+      "topic": "car accident lawyer",
+      "source": "google-trends-rss",
+      "region": "GLOBAL",
+      "regionLabel": "Global proxy via US feed",
+      "trendScoreRaw": 2000,
+      "approxTraffic": "2000+",
+      "timestamp": "2026-04-09T17:01:24.874Z",
+      "publishedAt": "Thu, 9 Apr 2026 09:30:00 -0700",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT4Td2Dg0ZLLdLgbPM--H--k9yvdX0o-LVlvbFF07GRb9R4G4TSpr5U95sHidI",
+      "pictureSource": "FinancialContent",
+      "news": [
+        {
+          "title": "Law Offices of Humberto Izquierdo, Jr., PC Addresses Rising Car Accident Fatalities in Forsyth County",
+          "url": "https://markets.financialcontent.com/stocks/article/pressadvantage-2026-4-9-law-offices-of-humberto-izquierdo-jr-pc-addresses-rising-car-accident-fatalities-in-forsyth-county",
+          "source": "FinancialContent"
+        },
+        {
+          "title": "NYC lawyer ran massive insurance fraud ring staging car accidents to drive up payouts: suit",
+          "url": "https://nypost.com/2026/04/08/us-news/nyc-lawyer-ran-massive-insurance-fraud-ring-staging-car-accidents-to-drive-up-payouts-suit/",
+          "source": "New York Post"
+        },
+        {
+          "title": "FedEx Says NY Attys And Medical Providers Staged Crashes",
+          "url": "https://www.law360.com/articles/2462885/fedex-says-ny-attys-and-medical-providers-staged-crashes",
+          "source": "Law360"
+        }
+      ],
+      "whyNow": "Law Offices of Humberto Izquierdo, Jr., PC Addresses Rising Car Accident Fatalities in Forsyth County"
+    },
+    {
+      "topic": "andrew mountbatten-windsor",
+      "source": "google-trends-rss",
+      "region": "GLOBAL",
+      "regionLabel": "Global proxy via US feed",
+      "trendScoreRaw": 1000,
+      "approxTraffic": "1000+",
+      "timestamp": "2026-04-09T17:01:24.874Z",
+      "publishedAt": "Thu, 9 Apr 2026 09:30:00 -0700",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa9oKnxnHdHeWKzpBcFKuDxVnmxFaxk1NmkK-DQqxmM85izm8kqvW2mXaNTnE",
+      "pictureSource": "Yahoo",
+      "news": [
+        {
+          "title": "Ex-Prince Andrew Moves into Permanent Sandringham Residence as Photos Show Him Alone With His Dog",
+          "url": "https://www.yahoo.com/entertainment/videos/ex-prince-andrew-moves-permanent-162200084.html",
+          "source": "Yahoo"
+        },
+        {
+          "title": "Of course Anne and Edward still care for Andrew. They’re only human",
+          "url": "https://www.telegraph.co.uk/news/2026/04/09/royal-family-loyal-to-andrew/",
+          "source": "The Telegraph"
+        },
+        {
+          "title": "Buckingham Palace’s New ‘Epstein Files’ Strategy For Andrew Is Weaponized Pity",
+          "url": "https://www.thedailybeast.com/buckingham-palaces-new-epstein-files-strategy-for-andrew-is-weaponized-pity/",
+          "source": "The Daily Beast"
+        }
+      ],
+      "whyNow": "Ex-Prince Andrew Moves into Permanent Sandringham Residence as Photos Show Him Alone With His Dog"
+    },
+    {
+      "topic": "olivia millar",
+      "source": "google-trends-rss",
+      "region": "GLOBAL",
+      "regionLabel": "Global proxy via US feed",
+      "trendScoreRaw": 500,
+      "approxTraffic": "500+",
+      "timestamp": "2026-04-09T17:01:24.874Z",
+      "publishedAt": "Thu, 9 Apr 2026 09:30:00 -0700",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQleyBFszHe9P5CMkRrXEIW_1kJLEBKn0a83mwSjLtbUgZMMYxsW7i1XcgN0zI",
+      "pictureSource": "People.com",
+      "news": [
+        {
+          "title": "Jonah Hill Reveals He&apos;s Married and Quietly Welcomed Baby No. 2 with Wife Olivia Millar",
+          "url": "https://people.com/jonah-hill-reveals-he-married-and-quietly-welcomed-baby-no-2-11946295",
+          "source": "People.com"
+        },
+        {
+          "title": "Jonah Hill is married, secretly welcomed baby No. 2 with wife Olivia Millar",
+          "url": "https://pagesix.com/2026/04/09/parents/jonah-hill-is-married-secretly-welcomed-baby-no-2-with-wife-olivia-millar/",
+          "source": "Page Six"
+        },
+        {
+          "title": "Who Is Jonah Hill&apos;s Wife? All About Clothing Store Owner Olivia Millar",
+          "url": "https://www.aol.com/articles/jonah-hills-wife-clothing-store-164739204.html",
+          "source": "AOL.com"
+        }
+      ],
+      "whyNow": "Jonah Hill Reveals He&apos;s Married and Quietly Welcomed Baby No. 2 with Wife Olivia Millar"
+    },
+    {
+      "topic": "hubert hurkacz",
+      "source": "google-trends-rss",
+      "region": "GLOBAL",
+      "regionLabel": "Global proxy via US feed",
+      "trendScoreRaw": 500,
+      "approxTraffic": "500+",
+      "timestamp": "2026-04-09T17:01:24.874Z",
+      "publishedAt": "Thu, 9 Apr 2026 09:30:00 -0700",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzBV8TWsvWGoLhNFAym2bg5tSjWhTvbASkbt-eTOtB9FIGueJt5eVvh2rcTKw",
+      "pictureSource": "Przegląd Sportowy",
+      "news": [
+        {
+          "title": "Hubert Hurkacz - Valentin Vacherot [RELACJA NA ŻYWO]",
+          "url": "https://przegladsportowy.onet.pl/tenis/hubert-hurkacz-valentin-vacherot-na-zywo-polak-po-cwiercfinal/1wsrc2w",
+          "source": "Przegląd Sportowy"
+        },
+        {
+          "title": "Monakijczyk sprawił wielką sensację. Teraz zagra z Hubertem Hurkaczem",
+          "url": "https://sportowefakty.wp.pl/tenis/1244085/monakijczyk-sprawil-wielka-sensacje-teraz-zagra-z-hubertem-hurkaczem",
+          "source": "SportoweFakty"
+        },
+        {
+          "title": "Deklasacja w meczu Hurkacza na ATP Monte Carlo. Finisz po 71 minutach",
+          "url": "https://sport.interia.pl/tenis/hubert-hurkacz/news-deklasacja-w-meczu-hurkacza-na-atp-monte-carlo-finisz-po-71,nId,23325143",
+          "source": "Sport Interia"
+        }
+      ],
+      "whyNow": "Hubert Hurkacz - Valentin Vacherot [RELACJA NA ŻYWO]"
+    },
+    {
+      "topic": "personal injury lawyer",
+      "source": "google-trends-rss",
+      "region": "GLOBAL",
+      "regionLabel": "Global proxy via US feed",
+      "trendScoreRaw": 2000,
+      "approxTraffic": "2000+",
+      "timestamp": "2026-04-09T17:01:24.874Z",
+      "publishedAt": "Thu, 9 Apr 2026 09:20:00 -0700",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRL4RE6vhPRRJGEqoZLn-YjNkSuClHppe3k2tt_UEidHiEJVsibLLqR03ygw5c",
+      "pictureSource": "FinancialContent",
+      "news": [
+        {
+          "title": "FinancialContent - Horst Shewmaker Responds to State Data Showing Marietta Among Georgia&apos;s Most Dangerous Areas for Motorcycle Riders",
+          "url": "https://markets.financialcontent.com/stocks/article/pressadvantage-2026-4-8-horst-shewmaker-responds-to-state-data-showing-marietta-among-georgias-most-dangerous-areas-for-motorcycle-riders",
+          "source": "FinancialContent"
+        },
+        {
+          "title": "1Georgia Injury Lawyers Addresses Rising Motorcycle Fatalities in Columbus Amid Legal Reform",
+          "url": "https://markets.chroniclejournal.com/chroniclejournal/article/pressadvantage-2026-4-8-1georgia-injury-lawyers-addresses-rising-motorcycle-fatalities-in-columbus-amid-legal-reform",
+          "source": "The Chronicle-Journal"
+        },
+        {
+          "title": "Rainy roads raise safety concerns as Duval County records 60th traffic fatality of 2026",
+          "url": "https://www.news4jax.com/news/local/2026/04/08/rainy-roads-raise-safety-concerns-as-duval-county-records-60th-traffic-fatality-of-2026/",
+          "source": "News4JAX"
+        }
+      ],
+      "whyNow": "FinancialContent - Horst Shewmaker Responds to State Data Showing Marietta Among Georgia&apos;s Most Dangerous Areas for Motorcycle Riders"
+    },
+    {
+      "topic": "truck accident lawyer",
+      "source": "google-trends-rss",
+      "region": "GLOBAL",
+      "regionLabel": "Global proxy via US feed",
+      "trendScoreRaw": 2000,
+      "approxTraffic": "2000+",
+      "timestamp": "2026-04-09T17:01:24.875Z",
+      "publishedAt": "Thu, 9 Apr 2026 09:20:00 -0700",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQkHE-XIorBKdZ26MbyQ2mBUYqCtMGyyJ-L6Ys_QPgqI1GZA9elf_OdF2hWFX4",
+      "pictureSource": "El Paso Times",
+      "news": [
+        {
+          "title": "Anthony Holm: The Truck Accident Attorney Fighting for El Paso&apos;s Injured on I-10",
+          "url": "https://www.elpasotimes.com/story/special/contributor-content/2026/04/08/anthony-holm-the-truck-accident-attorney-fighting-for-el-pasos-injured-on-i-10/89525014007/",
+          "source": "El Paso Times"
+        },
+        {
+          "title": "Dixon Vehicle Crash Hospitalizes Driver After Canal Rescue",
+          "url": "https://www.sacramentoinjuryattorneysblog.com/dixon-vehicle-crash-hospitalizes-driver-after-canal-rescue/",
+          "source": "sacramentoinjuryattorneysblog.com"
+        },
+        {
+          "title": "Rainy roads raise safety concerns as Duval County records 60th traffic fatality of 2026",
+          "url": "https://www.news4jax.com/news/local/2026/04/08/rainy-roads-raise-safety-concerns-as-duval-county-records-60th-traffic-fatality-of-2026/",
+          "source": "News4JAX"
+        }
+      ],
+      "whyNow": "Anthony Holm: The Truck Accident Attorney Fighting for El Paso&apos;s Injured on I-10"
+    },
+    {
+      "topic": "valentin vacherot",
+      "source": "google-trends-rss",
+      "region": "GLOBAL",
+      "regionLabel": "Global proxy via US feed",
+      "trendScoreRaw": 1000,
+      "approxTraffic": "1000+",
+      "timestamp": "2026-04-09T17:01:24.875Z",
+      "publishedAt": "Thu, 9 Apr 2026 09:20:00 -0700",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ1nR5AXueXWWNxhqx3DHYzR67KEVu5cAtnl4nBZuGyn7c2yk62svdL16M0yv4",
+      "pictureSource": "Tennis.com",
+      "news": [
+        {
+          "title": "Valentin Vacherot shows his clay-court game is \"ready to roll\" with ousting of 2025 Monte Carlo finalist Musetti",
+          "url": "https://www.tennis.com/news/articles/valentin-vacherot-clay-game-ready-roll-ousts-2025-monte-carlo-finalist-musetti",
+          "source": "Tennis.com"
+        },
+        {
+          "title": "Vacherot shocks Musetti in Monte-Carlo, makes Monegasque history",
+          "url": "https://www.atptour.com/en/news/vacherot-musetti-monte-carlo-2026-wednesday",
+          "source": "ATP Tour"
+        },
+        {
+          "title": "Rolex Monte-Carlo Masters Betting Odds and Match Previews for April 8, 2026, Men&apos;s Singles",
+          "url": "https://sportsbookwire.usatoday.com/story/sports/sports-betting/2026/04/08/rolex-monte-carlo-masters-betting-odds-favorites-match-previews-4-7-2026-mens/89512016007/",
+          "source": "Sportsbook Wire"
+        }
+      ],
+      "whyNow": "Valentin Vacherot shows his clay-court game is \"ready to roll\" with ousting of 2025 Monte Carlo finalist Musetti"
+    },
+    {
+      "topic": "six flags magic mountain",
+      "source": "google-trends-rss",
+      "region": "GLOBAL",
+      "regionLabel": "Global proxy via US feed",
+      "trendScoreRaw": 500,
+      "approxTraffic": "500+",
+      "timestamp": "2026-04-09T17:01:24.875Z",
+      "publishedAt": "Thu, 9 Apr 2026 09:20:00 -0700",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQrtTy7zyiA-gUZ2C55fEmR6NFAwLJZhyMhMbM0FtDehSATEJw6n0anfGT_84",
+      "pictureSource": "Orange County Register",
+      "news": [
+        {
+          "title": "Six Flags Magic Mountain takes a $533 million hit",
+          "url": "https://www.ocregister.com/2026/04/08/six-flags-magic-mountain-takes-a-533-million-hit/",
+          "source": "Orange County Register"
+        },
+        {
+          "title": "Six Flags Magic Mountain&apos;s Value Drops by $533 Million Amid Write-Down",
+          "url": "https://www.fakta.co/six-flags-magic-mountain-value-drops",
+          "source": "fakta.co"
+        },
+        {
+          "title": "Win tickets to Six Flags Magic Mountain",
+          "url": "https://www.audacy.com/931jackfm/contests/win-tickets-to-six-flags-magic-mountain",
+          "source": "Audacy"
+        }
+      ],
+      "whyNow": "Six Flags Magic Mountain takes a $533 million hit"
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "source": "https://trends.google.com/trending/rss?geo=SE",
+  "region": "SE",
+  "regionLabel": "Sweden",
+  "fetchedAt": "2026-04-09T17:01:23.034Z",
+  "trends": [
+    {
+      "topic": "nanna olasdotter hallberg",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "regionLabel": "Sweden",
+      "trendScoreRaw": 200,
+      "approxTraffic": "200+",
+      "timestamp": "2026-04-09T17:01:23.032Z",
+      "publishedAt": "Thu, 9 Apr 2026 09:40:00 -0700",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQiWX-POcQgZdheDZ080DDC7tizv9qYuHehaMiUS_BQYfxzNsIA-jV8w8hED2s",
+      "pictureSource": "Aftonbladet",
+      "news": [
+        {
+          "title": "Chattskandalen i Alingsås blir teater",
+          "url": "https://www.aftonbladet.se/nojesbladet/a/e7GKAQ/chattskandalen-i-alingsas-blir-teater",
+          "source": "Aftonbladet"
+        },
+        {
+          "title": "Nanna Olasdotter Hallberg gör teater av Alingsåschatten",
+          "url": "https://via.tt.se/pressmeddelande/4321896/nanna-olasdotter-hallberg-gor-teater-av-alingsaschatten?publisherId=3237061&lang=sv",
+          "source": "Via TT"
+        },
+        {
+          "title": "Chattskandalen blir teaterpjäs i Stockholm",
+          "url": "https://www.alingsastidning.se/nyheter/alingsas/chattskandalen-i-alingsas-blir-teater-i-stockholm.02b41689-e6f0-4d55-8657-ed2a8f9e5490",
+          "source": "Alingsås Tidning"
+        }
+      ],
+      "whyNow": "Chattskandalen i Alingsås blir teater"
+    },
+    {
+      "topic": "warner hahn",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "regionLabel": "Sweden",
+      "trendScoreRaw": 100,
+      "approxTraffic": "100+",
+      "timestamp": "2026-04-09T17:01:23.033Z",
+      "publishedAt": "Thu, 9 Apr 2026 09:30:00 -0700",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQY3dxerXoehLrOzn-28D_raDp2YDXbGS1rnFn7ckePyL4FNHV0WRfeA0_PEto",
+      "pictureSource": "Fotbollskanalen",
+      "news": [
+        {
+          "title": "Hahns VM-dröm krossad: \"Det är skit\"",
+          "url": "https://www.fotbollskanalen.se/artiklar/landslag/hahns-vm-drom-krossad-det-ar-skit",
+          "source": "Fotbollskanalen"
+        },
+        {
+          "title": "Warner Hahn om Surinams VM-miss: ”Som ett superettan-lag i allsvenskan”",
+          "url": "https://bollsvenskan.se/warner-hahn-om-surinams-vm-miss-som-ett-superettan-lag-i-allsvenskan/",
+          "source": "Bollsvenskan"
+        }
+      ],
+      "whyNow": "Hahns VM-dröm krossad: \"Det är skit\""
+    },
+    {
+      "topic": "inflation",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "regionLabel": "Sweden",
+      "trendScoreRaw": 200,
+      "approxTraffic": "200+",
+      "timestamp": "2026-04-09T17:01:23.033Z",
+      "publishedAt": "Thu, 9 Apr 2026 09:10:00 -0700",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSolObNmEsVkRE94w5MflE10ouvocAAuWbcVZLu6p4obMfobmxXcPT7wjmLL-o",
+      "pictureSource": "DI",
+      "news": [
+        {
+          "title": "Amerikansk inflationssiffra i linje med förväntningarna",
+          "url": "https://www.di.se/live/amerikansk-inflationssiffra-i-linje-med-forvantningarna/",
+          "source": "DI"
+        },
+        {
+          "title": "USA: Inflation föll som väntat",
+          "url": "https://www.aftonbladet.se/minekonomi/a/JOrxGX/usa-inflation-foll-som-vantat",
+          "source": "Aftonbladet"
+        },
+        {
+          "title": "Nils Åkesson: Het USA-inflation redan före krigets oljechock",
+          "url": "https://www.di.se/nyheter/het-usa-inflation-redan-fore-krigets-oljechock/",
+          "source": "DI"
+        }
+      ],
+      "whyNow": "Amerikansk inflationssiffra i linje med förväntningarna"
+    },
+    {
+      "topic": "sydöstran",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "regionLabel": "Sweden",
+      "trendScoreRaw": 200,
+      "approxTraffic": "200+",
+      "timestamp": "2026-04-09T17:01:23.033Z",
+      "publishedAt": "Thu, 9 Apr 2026 08:50:00 -0700",
+      "picture": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT_AoXX4mGT6Idfw7KeXnprAea_GFexc7GNaBj1uYd5g7nTrlyYvmalGHz2hkw",
+      "pictureSource": "SVT Nyheter",
+      "news": [
+        {
+          "title": "Kollapsen i regionstyret – alla samarbeten avbrutna",
+          "url": "https://www.svt.se/nyheter/lokalt/blekinge/kollapsen-i-regionstyret-alla-samarbeten-avbrutna",
+          "source": "SVT Nyheter"
+        },
+        {
+          "title": "Ingen ny akut före valet – politiker bryter flera löften",
+          "url": "https://www.sverigesradio.se/artikel/ingen-ny-akut-fore-valet-politiker-bryter-flera-loften",
+          "source": "Sveriges Radio"
+        },
+        {
+          "title": "Efter sprickan i regionen: M och SD i Karlshamn bekänner färg",
+          "url": "https://www.sydostran.se/karlshamn/efter-sprickan-i-regionen-m-och-sd-i-karlshamn-bekanner-farg/",
+          "source": "Sydöstran"
+        }
+      ],
+      "whyNow": "Kollapsen i regionstyret – alla samarbeten avbrutna"
+    },
+    {
+      "topic": "emil bemström",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "regionLabel": "Sweden",
+      "trendScoreRaw": 200,
+      "approxTraffic": "200+",
+      "timestamp": "2026-04-09T17:01:23.033Z",
+      "publishedAt": "Thu, 9 Apr 2026 08:40:00 -0700",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQb26JCRRjH3A3y3DReYRTekV77U9zOddDOCJoMTHVOwhyOd5NbW35cufI2Tdw",
+      "pictureSource": "Expressen",
+      "news": [
+        {
+          "title": "✓ Bemströms val ✓ Kovacs jagas i Tjeckien ✓ Målvakten lämnar ✓ Ljunghs klubbval",
+          "url": "https://www.expressen.se/sport/hockey/shl/sillyrummet-nobbar-shl-for-schweiz--jagar-lhc-stjarnan--han-lamnar-hv71/",
+          "source": "Expressen"
+        },
+        {
+          "title": "Uppgifter: Stjärnforwarden nobbar återkomst till DIF",
+          "url": "https://hockeysverige.se/shl/uppgifter-stjarnforwarden-emil-bemstrom-nobbar-aterkomst-till-djurgarden/",
+          "source": "hockeysverige.se"
+        },
+        {
+          "title": "Bemström to stay, HCAP&apos;s Dario Wüthrich on SCB&apos;s wish list?",
+          "url": "https://swisshockeynews.ch/en/shn/men/swiss-hockey/nl/bemstroem-to-stay-hcaps-dario-wuethrich-on-scbs-wish-list",
+          "source": "swisshockeynews.ch"
+        }
+      ],
+      "whyNow": "✓ Bemströms val ✓ Kovacs jagas i Tjeckien ✓ Målvakten lämnar ✓ Ljunghs klubbval"
+    },
+    {
+      "topic": "scooter braun",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "regionLabel": "Sweden",
+      "trendScoreRaw": 100,
+      "approxTraffic": "100+",
+      "timestamp": "2026-04-09T17:01:23.033Z",
+      "publishedAt": "Thu, 9 Apr 2026 08:40:00 -0700",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg6eVR-a8s69jJVBI4khx_vTLVR1yhXk3kql-bNG5g0AXca9yIn76a-nVP8Rw",
+      "pictureSource": "InStyle",
+      "news": [
+        {
+          "title": "Sydney Sweeney Ditches Signature Loose Waves for Tight Shirley Temple Curls for Scooter Braun Easter Date",
+          "url": "https://www.instyle.com/sydney-sweeney-tight-curls-baseball-cap-scooter-braun-easter-dinner-date-11943953",
+          "source": "InStyle"
+        },
+        {
+          "title": "Scooter Braun Supports Sydney Sweeney at &apos;Euphoria&apos; Premiere, Seen Walking Hand-in-Hand in New Photos",
+          "url": "https://www.imdb.com/fr/news/ni65787146/?ref_=nwc_art_perm",
+          "source": "IMDb"
+        },
+        {
+          "title": "Rare details of Sydney Sweeney and Scooter Braun&apos;s relationship revealed, as she meets kids",
+          "url": "https://thetab.com/2026/04/09/rare-details-of-sydney-sweeney-and-scooter-brauns-relationship-revealed-as-she-meets-kids",
+          "source": "The Tab"
+        }
+      ],
+      "whyNow": "Sydney Sweeney Ditches Signature Loose Waves for Tight Shirley Temple Curls for Scooter Braun Easter Date"
+    },
+    {
+      "topic": "svenska fotbollförbundet",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "regionLabel": "Sweden",
+      "trendScoreRaw": 500,
+      "approxTraffic": "500+",
+      "timestamp": "2026-04-09T17:01:23.033Z",
+      "publishedAt": "Thu, 9 Apr 2026 08:30:00 -0700",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQmlI7Jh_WNzI6SIrSOjtwfJQtcxBYrrh2MoqncDTv8ZExcb-cUY31tam_SN8Q",
+      "pictureSource": "Aftonbladet",
+      "news": [
+        {
+          "title": "SvFF:s varning till fansen: ”Åk inte hit!”",
+          "url": "https://www.aftonbladet.se/sportbladet/fotboll/a/5p8nw1/svenska-varningen-infor-fotbolls-vm-ak-inte-hit",
+          "source": "Aftonbladet"
+        },
+        {
+          "title": "Olof Lundh: Svettig jakt på nya intäkter",
+          "url": "https://www.di.se/nyheter/svettig-jakt-pa-nya-intakter/",
+          "source": "DI"
+        },
+        {
+          "title": "Rusning efter biljetter till Sveriges VM-matcher",
+          "url": "https://www.gp.se/sport/fotboll/rusning-efter-svenska-vm-biljetter-fler-ansokningar-an-platser.f5c12f31-6aab-4dd9-9bf5-70e4ef169aff",
+          "source": "GP"
+        }
+      ],
+      "whyNow": "SvFF:s varning till fansen: ”Åk inte hit!”"
+    },
+    {
+      "topic": "jack berglund",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "regionLabel": "Sweden",
+      "trendScoreRaw": 200,
+      "approxTraffic": "200+",
+      "timestamp": "2026-04-09T17:01:23.033Z",
+      "publishedAt": "Thu, 9 Apr 2026 08:20:00 -0700",
+      "picture": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQXaaXQzHb0Orsxfc3mPmMCMH9wAZFKVuvNHlgoi53aaDFv6ZpTOyTc6gjmfpk",
+      "pictureSource": "Expressen",
+      "news": [
+        {
+          "title": "Beskedet: Skriver ett NHL-kontrakt",
+          "url": "https://www.expressen.se/sport/hockey/nhl/jack-berglund-skriver-nhl-kontrakt/",
+          "source": "Expressen"
+        },
+        {
+          "title": "Jack Berglund har skrivit på för Flyers",
+          "url": "https://www.farjestadbk.se/article/77aatd8-23h01/view",
+          "source": "Färjestad BK"
+        },
+        {
+          "title": "JUST NU: Talangen skriver NHL-kontrakt – öppnar för FBK: ”Ett alternativ”",
+          "url": "https://www.nwt.se/2026/04/09/talangen-skriver-nhl-kontrakt-oppnar-for-fbk-ett-alternativ-3c69c/",
+          "source": "NWT"
+        }
+      ],
+      "whyNow": "Beskedet: Skriver ett NHL-kontrakt"
+    },
+    {
+      "topic": "tommy fleetwood",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "regionLabel": "Sweden",
+      "trendScoreRaw": 500,
+      "approxTraffic": "500+",
+      "timestamp": "2026-04-09T17:01:23.033Z",
+      "publishedAt": "Thu, 9 Apr 2026 08:20:00 -0700",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7u-LjpY9eY9s1qspU4I0NtsKqCckN1a8cAsI7TiwLFrC_OjWh4kXuLE9LJ1s",
+      "pictureSource": "Yahoo Sports",
+      "news": [
+        {
+          "title": "Masters 2026: The shot everyone wanted to see — would 8-year-old Frankie Fleetwood clear the water?",
+          "url": "https://sports.yahoo.com/golf/article/masters-2026-the-shot-everyone-wanted-to-see--would-8-year-old-frankie-fleetwood-clear-the-water-213913195.html",
+          "source": "Yahoo Sports"
+        },
+        {
+          "title": "Aaron Rai Wins as Young Fleetwood Steals Masters Spotlight",
+          "url": "https://streamlinefeed.co.ke/news/rai-wins-young-fleetwood-steals-show-at-par-3",
+          "source": "https://streamlinefeed.co.ke/"
+        },
+        {
+          "title": "Why Frankie Fleetwood Is Stealing The Show At The Masters With His Par 3 Contest Challenge",
+          "url": "https://www.inkl.com/news/why-frankie-fleetwood-is-stealing-the-show-at-the-masters-with-his-par-3-contest-challenge",
+          "source": "inkl"
+        }
+      ],
+      "whyNow": "Masters 2026: The shot everyone wanted to see — would 8-year-old Frankie Fleetwood clear the water?"
+    },
+    {
+      "topic": "elon musk",
+      "source": "google-trends-rss",
+      "region": "SE",
+      "regionLabel": "Sweden",
+      "trendScoreRaw": 500,
+      "approxTraffic": "500+",
+      "timestamp": "2026-04-09T17:01:23.033Z",
+      "publishedAt": "Thu, 9 Apr 2026 08:10:00 -0700",
+      "picture": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ9ronqxlWRED1040n9iMZox9K1e9gL6k255hibmJMZTz2IZmYIMaED4p1aBLc",
+      "pictureSource": "Not a Tesla App",
+      "news": [
+        {
+          "title": "2026.2.9.6 (FSD 14.3) Official Tesla Release Notes - Software Updates",
+          "url": "https://www.notateslaapp.com/software-updates/version/2026.2.9.6/release-notes",
+          "source": "Not a Tesla App"
+        },
+        {
+          "title": "Ross Gerber Demands $10K Refund If Tesla&apos;s New FSD Doesn&apos;t Work &apos;Unsupervised&apos;—Says Google Has &apos;Solved&apos; A",
+          "url": "https://www.benzinga.com/markets/tech/26/04/51722603/ross-gerber-demands-10k-refund-if-teslas-new-fsd-doesnt-work-unsupervised-says-google-has-solved-autonomy-with-waymo",
+          "source": "Benzinga"
+        },
+        {
+          "title": "Tesla’s Autonomy Leap: Unsupervised FSD Pilots Authorized for London and Berlin",
+          "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-4-8-teslas-autonomy-leap-unsupervised-fsd-pilots-authorized-for-london-and-berlin",
+          "source": "FinancialContent"
+        }
+      ],
+      "whyNow": "2026.2.9.6 (FSD 14.3) Official Tesla Release Notes - Software Updates"
+    }
+  ]
+}
