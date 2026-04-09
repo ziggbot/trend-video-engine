@@ -8,15 +8,36 @@ if (!files.length) throw new Error('No trend files found. Run fetch-trends first
 const latest = JSON.parse(await fs.readFile(path.join(dir, files[files.length - 1]), 'utf8'));
 
 function scoreTrend(item) {
-  const novelty = Math.min(10, Math.round(item.trendScoreRaw / 10));
-  const emotion = /viral|ai|kärnkraft|hälsa/i.test(item.topic) ? 8 : 6;
-  const clarity = item.topic.length < 40 ? 9 : 7;
-  const explainability = 8;
-  const ctrPotential = Math.round((novelty + emotion + clarity + explainability) / 4);
-  const total = novelty * 0.25 + emotion * 0.2 + clarity * 0.2 + explainability * 0.15 + ctrPotential * 0.2;
+  const traffic = item.trendScoreRaw || 0;
+  const novelty = Math.min(10, Math.max(3, Math.round(Math.log10(traffic + 1) * 3)));
+  const emotion = /död|avslöjar|kris|viral|skandal|ai|krig|attack|kaos/i.test(`${item.topic} ${item.whyNow}`) ? 9 : 6;
+  const clarity = item.topic.length < 32 ? 9 : item.topic.length < 55 ? 7 : 5;
+  const explainability = item.news?.length ? 8 : 6;
+  const swedishRelevance = item.region === 'SE' ? 9 : 6;
+  const sourceStrength = Math.min(10, Math.max(5, item.news?.length || 0 + 5));
+  const ctrPotential = Math.round((novelty + emotion + clarity + explainability + swedishRelevance) / 5);
+
+  const total = (
+    novelty * 0.18 +
+    emotion * 0.2 +
+    clarity * 0.18 +
+    explainability * 0.16 +
+    swedishRelevance * 0.12 +
+    sourceStrength * 0.06 +
+    ctrPotential * 0.1
+  );
+
   return {
     ...item,
-    scoring: { novelty, emotion, clarity, explainability, ctrPotential },
+    scoring: {
+      novelty,
+      emotion,
+      clarity,
+      explainability,
+      swedishRelevance,
+      sourceStrength,
+      ctrPotential
+    },
     totalScore: Number((total * 10).toFixed(1))
   };
 }

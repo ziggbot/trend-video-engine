@@ -1,0 +1,36 @@
+{
+  "topic": "rolf alsing",
+  "why_now": "Journalisten och publicisten Rolf Alsing är död",
+  "audience_angle": "Förklara snabbt varför folk pratar om detta och varför det spelar roll.",
+  "hook": "Alla pratar om rolf alsing just nu, men här är varför det faktiskt betyder något.",
+  "title": "rolf alsing, förklarat på 30 sekunder",
+  "script_30s": "Alla pratar om rolf alsing just nu, men här är varför det faktiskt betyder något. rolf alsing trendar just nu, och det handlar inte bara om att många söker, utan om att ämnet träffar något som folk redan känner eller oroar sig för. Journalisten och publicisten Rolf Alsing är död Förklara snabbt varför folk pratar om detta och varför det spelar roll. Det här är exakt typen av ämne som exploderar i kortformat när det paketeras tydligt och snabbt. Vill du ha fler snabba förklaringar av det som trendar just nu, följ för nästa video.",
+  "voice_style": "clear, energetic, credible",
+  "visual_direction": [
+    "big hook text first 2 seconds",
+    "3 fast explainer cards",
+    "clean subtitle pacing",
+    "end with a curiosity CTA"
+  ],
+  "youtube": {
+    "title": "rolf alsing på 30 sekunder",
+    "description": "Kort förklaring av varför rolf alsing trendar just nu.",
+    "tags": [
+      "trending",
+      "nyheter",
+      "förklaring",
+      "shorts"
+    ]
+  },
+  "review": {
+    "status": "draft",
+    "notes": "Script generated automatically, needs human check for factual accuracy, nuance, and tone before publishing."
+  },
+  "caption_chunks": [
+    "Alla pratar om rolf alsing just nu, men här är varför det faktiskt betyder något.",
+    "rolf alsing trendar just nu",
+    "Journalisten och publicisten Rolf Alsing är död",
+    "Det här exploderar i kortformat",
+    "Följ för nästa trend"
+  ]
+}
