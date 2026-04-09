@@ -4,4 +4,5 @@ setTimeout(async () => {
   await import('./generate-brief.js');
   await import('./generate-script.js');
   await import('./generate-voice.js');
+  await import('./render-video.js');
 }, 100);

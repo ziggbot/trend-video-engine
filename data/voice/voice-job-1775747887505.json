@@ -1,0 +1,10 @@
+{
+  "createdAt": "2026-04-09T15:18:07.505Z",
+  "status": "queued",
+  "provider": "not-configured",
+  "voiceId": "default",
+  "script": "Alla pratar om rolf alsing just nu, men här är varför det faktiskt betyder något. rolf alsing trendar just nu, och det handlar inte bara om att många söker, utan om att ämnet träffar något som folk redan känner eller oroar sig för. Journalisten och publicisten Rolf Alsing är död Förklara snabbt varför folk pratar om detta och varför det spelar roll. Det här är exakt typen av ämne som exploderar i kortformat när det paketeras tydligt och snabbt. Vill du ha fler snabba förklaringar av det som trendar just nu, följ för nästa video.",
+  "scriptLength": 534,
+  "note": "No TTS credentials detected yet. This is a provider-ready scaffold.",
+  "nextAction": "Set TTS_PROVIDER and provider API key in environment."
+}

@@ -1,0 +1,35 @@
+{
+  "createdAt": "2026-04-09T15:18:07.507Z",
+  "status": "scaffolded",
+  "format": "youtube-short-9x16",
+  "durationTargetSeconds": 30,
+  "sourceBrief": "content-brief-1775747887501.json",
+  "scenes": [
+    {
+      "type": "hook-card",
+      "text": "Alla pratar om rolf alsing just nu, men här är varför det faktiskt betyder något.",
+      "durationSeconds": 4
+    },
+    {
+      "type": "explainer-card",
+      "text": "rolf alsing trendar just nu",
+      "durationSeconds": 7
+    },
+    {
+      "type": "context-card",
+      "text": "Journalisten och publicisten Rolf Alsing är död",
+      "durationSeconds": 9
+    },
+    {
+      "type": "cta-card",
+      "text": "Följ för nästa trend",
+      "durationSeconds": 4
+    }
+  ],
+  "assetsNeeded": {
+    "voiceover": true,
+    "captions": true,
+    "backgroundVisual": true
+  },
+  "note": "Next step is implementing actual rendering with ffmpeg, Remotion, or HTML capture."
+}
