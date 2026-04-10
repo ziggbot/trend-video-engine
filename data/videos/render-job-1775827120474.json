@@ -1,0 +1,12 @@
+{
+  "createdAt": "2026-04-10T13:18:49.050Z",
+  "status": "rendered",
+  "format": "youtube-short-9x16",
+  "sourceBrief": "content-brief-1775754451836.json",
+  "sourceVoiceJob": "voice-job-1775825808834.json",
+  "outputVideo": "/home/ubuntu/.openclaw/workspace/trend-video-engine/data/videos/video-1775827120474.mp4",
+  "outputVideoName": "video-1775827120474.mp4",
+  "title": "Varför alla pratar om The Punisher: One Last Kill",
+  "subtitle": "Alla pratar om the punisher one last kill just nu, men här är varför det faktiskt betyder något.",
+  "note": "First real ffmpeg-based template video render."
+}
