@@ -1,0 +1,60 @@
+name: Daily Trend Refresh
+
+on:
+  schedule:
+    - cron: '15 5 * * *'
+  workflow_dispatch:
+
+jobs:
+  refresh-dashboard-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout engine repo
+        uses: actions/checkout@v4
+        with:
+          path: trend-video-engine
+
+      - name: Checkout dashboard repo
+        uses: actions/checkout@v4
+        with:
+          repository: ziggbot/trend-video-engine-dashboard-pages
+          token: ${{ secrets.DASHBOARD_REPO_TOKEN }}
+          path: trend-video-engine-dashboard-pages
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Refresh SE trends
+        working-directory: trend-video-engine
+        run: TREND_REGION=SE node src/run-mvp.js
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+      - name: Refresh US trends
+        working-directory: trend-video-engine
+        run: TREND_REGION=US node src/run-mvp.js
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+      - name: Refresh GLOBAL trends
+        working-directory: trend-video-engine
+        run: TREND_REGION=GLOBAL node src/run-mvp.js
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+      - name: Export dashboard data
+        working-directory: trend-video-engine
+        run: DASHBOARD_DIR=../trend-video-engine-dashboard-pages node scripts/export-dashboard-data.mjs
+
+      - name: Commit dashboard updates
+        working-directory: trend-video-engine-dashboard-pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add trends-SE.json trends-US.json trends-GLOBAL.json latest-content-brief.json latest-ranked-topics.json latest-voice-job.json review-status.json production-queue.json video-status.json publish-log.json
+          git diff --cached --quiet || git commit -m "Daily refresh of trend dashboard data"
+          git push

@@ -10,6 +10,7 @@
     "generate:script": "node src/generate-script.js",
     "generate:voice": "node src/generate-voice.js",
     "render:video": "node src/render-video.js",
-    "run:mvp": "node src/run-mvp.js"
+    "run:mvp": "node src/run-mvp.js",
+    "export:dashboard": "node scripts/export-dashboard-data.mjs"
   }
 }
