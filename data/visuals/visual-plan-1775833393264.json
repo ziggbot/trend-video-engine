@@ -1,0 +1,27 @@
+{
+  "createdAt": "2026-04-10T15:03:13.264Z",
+  "topic": "the punisher one last kill",
+  "angleType": "news explainer",
+  "buzzDriver": "Den nya trailern och dess mörka teman",
+  "style": "vertical short-form ai visual scenes",
+  "scenes": [
+    {
+      "scene": 1,
+      "purpose": "hook",
+      "visualPrompt": "Vertical cinematic entertainment visual inspired by the punisher one last kill, dark dramatic lighting, intense character silhouette, premium teaser poster look, realistic but original, no copyrighted characters, no text",
+      "caption": "Varför pratar alla om the punisher one last kill?"
+    },
+    {
+      "scene": 2,
+      "purpose": "explain why now",
+      "visualPrompt": "AI-generated dramatic pop culture scene about the punisher one last kill, fandom reaction, trailer-drop energy, moody red and black palette, vertical 9:16, editorial style, no text",
+      "caption": "‘The Punisher: One Last Kill’ Trailer Promises Many Kills, Actually"
+    },
+    {
+      "scene": 3,
+      "purpose": "reason to care",
+      "visualPrompt": "Cinematic original visual representing the buzz around the punisher one last kill, online discussion, hype, emotion, modern entertainment commentary aesthetic, vertical, no text",
+      "caption": "Buzz driver: Den nya trailern och dess mörka teman"
+    }
+  ]
+}
