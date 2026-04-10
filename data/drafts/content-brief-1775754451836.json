@@ -4,7 +4,7 @@
   "audience_angle": "Förklara snabbt varför folk pratar om detta och varför det spelar roll.",
   "hook": "Alla pratar om the punisher one last kill just nu, men här är varför det faktiskt betyder något.",
   "title": "the punisher one last kill, förklarat på 30 sekunder",
-  "script_30s": "Alla pratar om The Punisher: One Last Kill just nu, men här är varför det faktiskt betyder något. Den senaste trailern lovar en hel del action och grymma dödsfall. För många fans är Punisher mer än bara en superhjälte; han är en symbol för rättvisa på sitt eget sätt. Serien utforskar komplexiteten av hämnd och vad som driver en människa till att bli en mördare. Med det sagt, kan vi förvänta oss en djupare berättelse, inte bara brutala scener. Den här gången kanske vi får se Frank Castle konfrontera sina egna demoner. Missa inte chansen att se vad som verkligen ligger bakom alla dessa dödande! ",
+  "script_30s": "Alla pratar om 'The Punisher: One Last Kill' just nu, men här är varför det faktiskt betyder något. Den nya trailern lovar en brutal avslutning på Frank Castles hämndhistoria, vilket har fansen i extas. Med ett mörkare och mer realistiskt förhållningssätt är denna film inte bara en actionrulle, utan också en kommentar på våld och rättvisa i vår tid. Det är inte bara underhållning; det handlar om hur vi ser på moral i en osäker värld. Så om du är ett fan av gränslös action och djupare teman, missa inte detta!",
   "voice_style": "clear, energetic, credible",
   "visual_direction": [
     "big hook text first 2 seconds",
@@ -13,7 +13,7 @@
     "end with a curiosity CTA"
   ],
   "youtube": {
-    "title": "Varför alla pratar om The Punisher: One Last Kill",
+    "title": "Varför 'The Punisher: One Last Kill' är på allas läppar just nu!",
     "description": "Kort förklaring av varför the punisher one last kill trendar just nu.",
     "tags": [
       "trending",
@@ -28,10 +28,11 @@
   },
   "generationMode": "openai",
   "caption_chunks": [
-    "The Punisher: One Last Kill - vad handlar det om?",
-    "Trailern lovar action och dödsfall!",
-    "Punisher är mer än en superhjälte.",
-    "Hämnd och komplexitet är centralt.",
-    "Se Frank Castle konfrontera sina demoner!"
-  ]
+    "Varför pratar alla om 'The Punisher: One Last Kill'?",
+    "Ny trailer lovar brutal avslutning på hämndhistorien!",
+    "En kommentar på våld och rättvisa i vår tid.",
+    "Missa inte detta!"
+  ],
+  "angle_type": "news explainer",
+  "buzz_driver": "Den nya trailern och dess mörka teman"
 }
