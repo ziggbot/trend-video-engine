@@ -1,0 +1,20 @@
+node_modules/
+output/
+data/
+data-cache/
+dist/
+*.log
+.env
+.env.*
+
+# Run working directories: manifests are committed, heavy assets are not
+runs/*/assets/
+runs/*/*/assets/
+runs/*/*/voice/*.wav
+runs/*/*/voice/*.mp3
+runs/*/*/visuals/media/
+runs/*/*/render/
+runs/*/run.log.jsonl
+
+# Remotion
+.remotion/

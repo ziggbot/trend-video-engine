@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ht="https://trends.google.com/trending/rss">
+  <channel>
+    <title>Daily Search Trends</title>
+    <item>
+      <title>Mock Solar Eclipse</title>
+      <ht:approx_traffic>500K+</ht:approx_traffic>
+      <pubDate>Fri, 04 Jul 2026 06:00:00 -0700</pubDate>
+      <ht:picture>https://example.com/eclipse.jpg</ht:picture>
+      <ht:picture_source>Example News</ht:picture_source>
+      <ht:news_item>
+        <ht:news_item_title>Rare solar eclipse stuns &quot;millions&quot; of viewers</ht:news_item_title>
+        <ht:news_item_url>https://example.com/eclipse-article</ht:news_item_url>
+        <ht:news_item_source>Example News</ht:news_item_source>
+      </ht:news_item>
+      <ht:news_item>
+        <ht:news_item_title>How to watch the eclipse safely &amp; when it peaks</ht:news_item_title>
+        <ht:news_item_url>https://example.com/eclipse-guide</ht:news_item_url>
+        <ht:news_item_source>Guide Site</ht:news_item_source>
+      </ht:news_item>
+    </item>
+    <item>
+      <title>Mock AI Scandal</title>
+      <ht:approx_traffic>200K+</ht:approx_traffic>
+      <pubDate>Fri, 04 Jul 2026 05:00:00 -0700</pubDate>
+      <ht:news_item>
+        <ht:news_item_title>AI company reveals surprising crisis response</ht:news_item_title>
+        <ht:news_item_url>https://example.com/ai-article</ht:news_item_url>
+        <ht:news_item_source>Tech Daily</ht:news_item_source>
+      </ht:news_item>
+    </item>
+    <item>
+      <title>Mock Sports Final åäö</title>
+      <ht:approx_traffic>100K+</ht:approx_traffic>
+      <pubDate>Fri, 04 Jul 2026 04:00:00 -0700</pubDate>
+    </item>
+    <item>
+      <title>Graphic violence incident</title>
+      <ht:approx_traffic>50K+</ht:approx_traffic>
+      <pubDate>Fri, 04 Jul 2026 03:00:00 -0700</pubDate>
+      <ht:news_item>
+        <ht:news_item_title>Details of the graphic violence incident</ht:news_item_title>
+        <ht:news_item_url>https://example.com/violence</ht:news_item_url>
+        <ht:news_item_source>News Wire</ht:news_item_source>
+      </ht:news_item>
+    </item>
+  </channel>
+</rss>

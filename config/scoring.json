@@ -1,0 +1,17 @@
+{
+  "weights": {
+    "novelty": 0.18,
+    "emotion": 0.2,
+    "clarity": 0.18,
+    "explainability": 0.16,
+    "regionRelevance": 0.12,
+    "sourceStrength": 0.06,
+    "ctrPotential": 0.1
+  },
+  "emotionKeywords": {
+    "sv": ["död", "avslöjar", "kris", "viral", "skandal", "ai", "krig", "attack", "kaos", "musk", "rekord", "chock"],
+    "en": ["dead", "reveals", "crisis", "viral", "scandal", "ai", "war", "attack", "chaos", "musk", "record", "shock", "breaking"]
+  },
+  "repetitionPenaltyFactor": 0.3,
+  "repetitionLookbackDays": 3
+}

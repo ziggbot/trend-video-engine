@@ -1,9 +1,8 @@
 {
-  "default": {
-    "name": "clear-swedish-neutral",
-    "language": "sv",
-    "pace": "medium",
-    "energy": "medium-high",
-    "style": "credible, crisp, warm"
-  }
+  "sv-neutral-f": { "provider": "edge-tts", "voiceId": "sv-SE-SofieNeural", "speed": 1.05, "lang": "sv" },
+  "sv-neutral-m": { "provider": "edge-tts", "voiceId": "sv-SE-MattiasNeural", "speed": 1.05, "lang": "sv" },
+  "en-male-warm": { "provider": "edge-tts", "voiceId": "en-US-ChristopherNeural", "speed": 1.08, "lang": "en" },
+  "en-female-clear": { "provider": "edge-tts", "voiceId": "en-US-AriaNeural", "speed": 1.05, "lang": "en" },
+  "en-kokoro-adam": { "provider": "kokoro", "voiceId": "am_adam", "speed": 1, "lang": "en" },
+  "en-kokoro-sarah": { "provider": "kokoro", "voiceId": "af_sarah", "speed": 1, "lang": "en" }
 }
