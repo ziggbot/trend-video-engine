@@ -18,6 +18,7 @@ import {
   generateCarousel,
   generateLongScript,
   generatePlatformMetadata,
+  generateShortFromChapter,
   generateShortScript
 } from './generate-script';
 import { synthesizeChapters, synthesizeVoice } from './synthesize-voice';
@@ -65,7 +66,8 @@ export async function produceShort(
   ctx: ChannelCtx,
   planIdx: number,
   ranked: ScoredTopic[],
-  topicRank: number
+  topicRank: number,
+  opts: { fromChapter?: { videoTitle: string; chapterTitle: string; chapterText: string } } = {}
 ): Promise<ProducedContent> {
   const p = stageKeyPrefix(planIdx);
   const stages = ctx.manifest.channels[ctx.channel.id].stages;
@@ -73,10 +75,12 @@ export async function produceShort(
   const workDir = join(ctx.channelDir, `${p}-short`);
   const topic = pickTopic(ranked, topicRank);
 
-  // 1. Script
+  // 1. Script (from the trend topic, or cut from a long-form chapter)
   const scriptPath = join(workDir, 'script.json');
   await runStage(ctx, stages, `${p}:script`, log, async () => {
-    const script = await generateShortScript(ctx, topic);
+    const script = opts.fromChapter
+      ? await generateShortFromChapter(ctx, topic, opts.fromChapter)
+      : await generateShortScript(ctx, topic);
     await writeJson(scriptPath, script);
     return { outputs: [scriptPath] };
   });

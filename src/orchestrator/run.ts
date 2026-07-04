@@ -14,6 +14,7 @@ import { publishApproved } from '../stages/publish';
 import { runStage } from './stage';
 import { writeJson, readJson, atomicWriteFile, ensureDir } from '../lib/files';
 import { TrendSnapshotSchema, ScoredTopic } from '../types/trend';
+import { LongScriptSchema } from '../types/script';
 
 export interface RunOptions {
   rootDir?: string;
@@ -134,19 +135,50 @@ async function runChannel(ctx: ChannelCtx, recentManifests: Awaited<ReturnType<t
   }
   await saveManifest(manifest, ctx.rootDir);
 
-  // Produce + package each planned item
+  // Produce + package each planned item (long-form runs before its derived shorts
+  // because planContent orders it first)
   for (let i = 0; i < channelRun.plan.length; i++) {
     const item = channelRun.plan[i];
     if (item.pkgId && manifest.packages[item.pkgId]) continue; // resume: already packaged
-    const content =
-      item.kind === 'short'
-        ? await produceShort(ctx, i, ranked, item.topicRank)
-        : item.kind === 'image_post'
-          ? await produceImagePost(ctx, i, ranked, item.topicRank)
-          : await produceLong(ctx, i, ranked, item.topicRank);
+    let content;
+    if (item.kind === 'short' && item.derivedFromChapter !== undefined) {
+      const fromChapter = await loadChapterSource(ctx, channelRun.plan, item.topicRank, item.derivedFromChapter);
+      if (!fromChapter) {
+        log.warn(`plan item ${i}: long-form script unavailable, skipping derived short`);
+        continue;
+      }
+      content = await produceShort(ctx, i, ranked, item.topicRank, { fromChapter });
+    } else if (item.kind === 'short') {
+      content = await produceShort(ctx, i, ranked, item.topicRank);
+    } else if (item.kind === 'image_post') {
+      content = await produceImagePost(ctx, i, ranked, item.topicRank);
+    } else {
+      content = await produceLong(ctx, i, ranked, item.topicRank);
+    }
     const pkg = await buildPackage(ctx, content);
     item.pkgId = pkg.pkgId;
     await saveManifest(manifest, ctx.rootDir);
+  }
+}
+
+/** Find the long-form script produced earlier in this run and pull one chapter from it. */
+async function loadChapterSource(
+  ctx: ChannelCtx,
+  plan: { kind: string; topicRank: number }[],
+  topicRank: number,
+  chapterIdx: number
+): Promise<{ videoTitle: string; chapterTitle: string; chapterText: string } | null> {
+  const longIdx = plan.findIndex((p) => p.kind === 'long' && p.topicRank === topicRank);
+  if (longIdx === -1) return null;
+  const stage = ctx.manifest.channels[ctx.channel.id].stages[`p${longIdx}:script`];
+  const scriptFile = stage?.outputs?.[0];
+  if (stage?.status !== 'done' || !scriptFile) return null;
+  try {
+    const script = LongScriptSchema.parse(await readJson(scriptFile));
+    const chapter = script.chapters[Math.min(chapterIdx, script.chapters.length - 1)];
+    return { videoTitle: script.title, chapterTitle: chapter.title, chapterText: chapter.text };
+  } catch {
+    return null;
   }
 }
 

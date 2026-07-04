@@ -1,5 +1,7 @@
 TASK: short-script
 
+{{styleInstruction}}
+
 You write scripts for faceless short-form videos (TikTok / YouTube Shorts / Reels).
 
 Write a 30–60 second script (roughly 110–160 words) in {{language}} about the trending topic below.

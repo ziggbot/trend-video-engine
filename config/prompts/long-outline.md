@@ -1,5 +1,7 @@
 TASK: long-outline
 
+{{styleInstruction}}
+
 You outline 5–10 minute faceless YouTube videos. Language: {{language}}. Tone: {{tone}}. Niche: {{niche}}. Audience: {{audience}}.
 
 Topic: {{topic}}

@@ -74,13 +74,40 @@ GEMINI_API_KEY=… PEXELS_API_KEY=… npm run run     # real run
 If Remotion should use a preinstalled browser instead of downloading Chrome
 Headless Shell, set `REMOTION_BROWSER_EXECUTABLE=/path/to/headless_shell`.
 
-## Channels
+## Channels & monetization strategy
 
 Everything is config: `config/channels.json` defines each channel's language
-(sv/en), trend region (SE/US/GLOBAL), niche, tone, platforms, voice preset
-(`config/voices.json`), visual theme, cadence (shorts/image posts per run,
-weekdays for long-form) and approval policy. Prompts live in
+(sv/en), trend region (SE/US/GLOBAL), niche, tone, **content style**
+(`evergreen`/`news`), platforms, voice preset (`config/voices.json`), visual
+theme, cadence, approval policy and **affiliate links**. Prompts live in
 `config/prompts/*.md` and can be edited without touching code.
+
+The shipped channels implement the monetization strategy (see 2026 economics
+in `docs/RESEARCH.md`):
+
+- **`sv-ekonomi`** — Swedish personal finance/consumer explainers. Thin
+  competition in Swedish, Tier-1 ad rates, and strong Nordic affiliate payouts
+  (fill in real links from e.g. Adtraction — the `REPLACE_ME` entries).
+- **`en-explainers`** — English documentary-style deep dives (tech, companies,
+  money) for scale.
+
+Key mechanics behind the strategy:
+
+- **Long-form (16:9) is the revenue product** — YouTube long-form RPM is
+  ~100–150× YouTube Shorts RPM. Shorts/TikTok/Reels are funnels.
+- **`deriveShorts`**: on long-form days the pipeline auto-cuts N vertical
+  shorts from the long video's chapters, each ending with a pointer to the
+  full video.
+- **`contentStyle: "evergreen"`**: the trend is used as a curiosity signal, not
+  a news event — prompts force explainers that stay watchable for a year. This
+  builds a compounding back-catalog and is much safer under YouTube's
+  inauthentic-content policy than trend-recap churn.
+- **Affiliate blocks** are appended to YouTube descriptions and package READMEs
+  automatically — affiliate revenue has no subscriber threshold and is
+  realistically the first money in.
+- **Approval is manual for everything** by default: a human pass over each
+  package is a YPP-compliance requirement in practice, not bureaucracy. Loosen
+  per channel/kind in config once a format has a track record.
 
 ## Approval & publishing
 

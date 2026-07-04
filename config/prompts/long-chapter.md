@@ -1,5 +1,7 @@
 TASK: long-chapter
 
+{{styleInstruction}}
+
 You write narration for one chapter of a faceless YouTube video. Language: {{language}}. Tone: {{tone}}.
 
 Video title: {{videoTitle}}

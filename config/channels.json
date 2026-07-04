@@ -1,63 +1,57 @@
 {
   "channels": [
     {
-      "id": "sv-shorts-news",
+      "id": "sv-ekonomi",
       "enabled": true,
       "language": "sv",
       "region": "SE",
-      "niche": "viral nyhetsförklarare",
-      "tone": "nyfiken, skarp, punchig, lätt att förstå",
-      "audience": "bred svensk publik som scrollar kortvideo",
-      "platforms": ["youtube_shorts", "tiktok", "instagram_reels", "instagram_feed"],
+      "niche": "svensk privatekonomi och konsumentfrågor — ISK, pension, räntor, elpriser, skatter, förklarat enkelt",
+      "tone": "lugn, trovärdig, konkret, pedagogisk — som en kunnig vän, aldrig clickbait",
+      "audience": "svenskar som vill förstå sin ekonomi utan finansjargong",
+      "contentStyle": "evergreen",
+      "platforms": ["youtube", "youtube_shorts", "tiktok", "instagram_reels", "instagram_feed"],
       "voice": "sv-neutral-f",
-      "theme": "midnight",
+      "theme": "ocean",
       "cadence": {
         "short": { "perRun": 1 },
         "image_post": { "perRun": 1 },
-        "long": { "days": [] }
+        "long": { "days": ["tue", "fri"], "deriveShorts": 2 }
       },
-      "approval": { "short": "auto", "image_post": "auto", "long": "manual" },
+      "approval": { "short": "manual", "image_post": "manual", "long": "manual" },
       "publisher": "manual",
-      "forbiddenTopics": ["graphic violence", "självmord", "medical misinformation", "hate content"]
+      "affiliate": {
+        "blurb": "Verktyg jag rekommenderar (annonslänkar):",
+        "links": [
+          { "label": "REPLACE_ME — t.ex. Avanza/Nordnet via Adtraction", "url": "https://example.com/your-affiliate-link" }
+        ]
+      },
+      "forbiddenTopics": ["graphic violence", "självmord", "medical misinformation", "hate content", "spelbolag", "krypto-pump"]
     },
     {
-      "id": "en-shorts-viral",
-      "enabled": true,
-      "language": "en",
-      "region": "US",
-      "niche": "viral news explainers",
-      "tone": "curious, sharp, punchy, easy to understand",
-      "audience": "broad US audience scrolling short-form video",
-      "platforms": ["youtube_shorts", "tiktok", "instagram_reels", "instagram_feed"],
-      "voice": "en-male-warm",
-      "theme": "ember",
-      "cadence": {
-        "short": { "perRun": 1 },
-        "image_post": { "perRun": 1 },
-        "long": { "days": [] }
-      },
-      "approval": { "short": "auto", "image_post": "auto", "long": "manual" },
-      "publisher": "manual",
-      "forbiddenTopics": ["graphic violence", "suicide", "medical misinformation", "hate content"]
-    },
-    {
-      "id": "en-longform-trends",
+      "id": "en-explainers",
       "enabled": true,
       "language": "en",
       "region": "GLOBAL",
-      "niche": "deep dives on what the world is searching for",
-      "tone": "calm, insightful, storytelling",
-      "audience": "viewers who want the full story behind a trend",
-      "platforms": ["youtube"],
-      "voice": "en-female-clear",
-      "theme": "ocean",
+      "niche": "how technology, companies and money actually work — documentary-style deep dives behind what the world is searching for",
+      "tone": "calm, insightful, narrative, well-researched — documentary voice, no hot takes",
+      "audience": "curious viewers who want the full story behind what everyone is searching for",
+      "contentStyle": "evergreen",
+      "platforms": ["youtube", "youtube_shorts", "tiktok", "instagram_reels"],
+      "voice": "en-male-warm",
+      "theme": "midnight",
       "cadence": {
-        "short": { "perRun": 0 },
+        "short": { "perRun": 1 },
         "image_post": { "perRun": 0 },
-        "long": { "days": ["mon", "thu"] }
+        "long": { "days": ["mon", "thu"], "deriveShorts": 2 }
       },
-      "approval": { "short": "auto", "image_post": "auto", "long": "manual" },
+      "approval": { "short": "manual", "image_post": "manual", "long": "manual" },
       "publisher": "manual",
+      "affiliate": {
+        "blurb": "Tools mentioned & recommended (affiliate links):",
+        "links": [
+          { "label": "REPLACE_ME — e.g. an AI-tool or software affiliate", "url": "https://example.com/your-affiliate-link" }
+        ]
+      },
       "forbiddenTopics": ["graphic violence", "suicide", "medical misinformation", "hate content"]
     }
   ]

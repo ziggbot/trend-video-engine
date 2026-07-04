@@ -25,22 +25,40 @@ export const ChannelSchema = z.object({
   niche: z.string(),
   tone: z.string(),
   audience: z.string(),
+  /**
+   * evergreen: the trend is only a curiosity signal — write explainers that stay
+   * accurate for a year (YPP-safer, back-catalog compounds). news: timely recap.
+   */
+  contentStyle: z.enum(['news', 'evergreen']).default('evergreen'),
   platforms: z.array(PlatformSchema).min(1),
   voice: z.string(),
   theme: z.string().default('midnight'),
   cadence: z.object({
     short: z.object({ perRun: z.number().int().min(0).max(3) }).default({ perRun: 1 }),
     image_post: z.object({ perRun: z.number().int().min(0).max(3) }).default({ perRun: 0 }),
-    long: z.object({ days: z.array(WeekdaySchema) }).default({ days: [] })
+    long: z
+      .object({
+        days: z.array(WeekdaySchema),
+        /** Cut up to N vertical shorts from the long-form chapters (funnel content). */
+        deriveShorts: z.number().int().min(0).max(3).default(0)
+      })
+      .default({ days: [], deriveShorts: 0 })
   }),
   approval: z
     .object({
-      short: ApprovalModeSchema.default('auto'),
-      image_post: ApprovalModeSchema.default('auto'),
+      short: ApprovalModeSchema.default('manual'),
+      image_post: ApprovalModeSchema.default('manual'),
       long: ApprovalModeSchema.default('manual')
     })
-    .default({ short: 'auto', image_post: 'auto', long: 'manual' }),
+    .default({ short: 'manual', image_post: 'manual', long: 'manual' }),
   publisher: z.string().default('manual'),
+  /** Appended to YouTube descriptions and the package README (affiliate revenue works pre-YPP). */
+  affiliate: z
+    .object({
+      blurb: z.string(),
+      links: z.array(z.object({ label: z.string(), url: z.string() })).min(1)
+    })
+    .optional(),
   forbiddenTopics: z.array(z.string()).default([])
 });
 export type Channel = z.infer<typeof ChannelSchema>;

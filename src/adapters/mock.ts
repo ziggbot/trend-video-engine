@@ -34,6 +34,16 @@ export class MockLlm implements LlmProvider {
   async completeJson(req: LlmJsonRequest): Promise<string> {
     const task = req.prompt.match(/^TASK: ([\w-]+)/)?.[1] ?? 'unknown';
     switch (task) {
+      case 'short-from-chapter':
+        return JSON.stringify({
+          hook: 'The part nobody noticed',
+          segments: [
+            { text: 'Inside the mock story there is one detail everyone missed.', sceneKeywords: ['magnifying glass'], visualMood: 'curious' },
+            { text: 'It changes how the whole thing reads.', sceneKeywords: ['city night'], visualMood: 'dramatic' }
+          ],
+          cta: 'The full story is on the channel.',
+          titleVariant: 'The detail everyone missed'
+        });
       case 'short-script':
         return JSON.stringify({
           hook: 'This story is everywhere right now',

@@ -34,6 +34,22 @@ describe('planContent', () => {
     expect(planContent(ch, new Date('2026-07-04T05:00:00Z'))).toHaveLength(1);
     expect(planContent(ch, new Date('2026-07-05T05:00:00Z'))).toHaveLength(0);
   });
+
+  it('derives shorts from long-form chapters with the same topic rank', () => {
+    const ch = ChannelSchema.parse({
+      ...base,
+      cadence: { short: { perRun: 1 }, image_post: { perRun: 0 }, long: { days: ['sat'], deriveShorts: 2 } }
+    });
+    const plan = planContent(ch, new Date('2026-07-04T05:00:00Z'));
+    expect(plan).toHaveLength(4); // trend short + long + 2 derived shorts
+    const long = plan.find((p) => p.kind === 'long')!;
+    const derived = plan.filter((p) => p.derivedFromChapter !== undefined);
+    expect(derived).toHaveLength(2);
+    expect(derived.every((d) => d.kind === 'short' && d.topicRank === long.topicRank)).toBe(true);
+    expect(derived.map((d) => d.derivedFromChapter)).toEqual([0, 1]);
+    // long comes before its derived shorts so the script exists when they run
+    expect(plan.indexOf(long)).toBeLessThan(plan.indexOf(derived[0]));
+  });
 });
 
 describe('sceneDurations', () => {

@@ -6,6 +6,7 @@ import { rm } from 'node:fs/promises';
 import { runPipeline } from '../src/orchestrator/run';
 import { ManifestSchema } from '../src/types/manifest';
 import { ffprobe } from '../src/render/ffmpeg';
+import { transitionPackage, saveManifest } from '../src/orchestrator/manifest';
 
 /**
  * Full pipeline smoke test in mock mode: no network, no API keys.
@@ -39,7 +40,7 @@ describe('mock end-to-end run', () => {
     const outcome = await runPipeline({
       rootDir: workRoot,
       mock: true,
-      channels: ['sv-shorts-news']
+      channels: ['sv-ekonomi']
     });
     runId = outcome.runId;
     expect(outcome.failures).toEqual([]);
@@ -54,8 +55,12 @@ describe('mock end-to-end run', () => {
     const packages = Object.values(manifest.packages);
     const short = packages.find((p) => p.kind === 'short');
     expect(short).toBeDefined();
-    // Auto-approval policy: shorts go straight to published (manual publisher)
-    expect(short!.status).toBe('published');
+    // Manual approval policy: everything waits for human review
+    expect(short!.status).toBe('pending_approval');
+
+    // Affiliate block reaches the platform metadata
+    const shortPkgJson = JSON.parse(readFileSync(join(short!.dir, 'package.json'), 'utf8'));
+    expect(shortPkgJson.platforms.youtube_shorts.description).toContain('annonslänkar');
 
     // Video sanity: streams, duration, orientation
     const videoPath = join(short!.dir, 'short.mp4');
@@ -81,21 +86,28 @@ describe('mock end-to-end run', () => {
     expect(existsSync(join(imagePost!.dir, 'images', '01.png'))).toBe(true);
   }, 600_000);
 
-  it('resume skips completed render stages (idempotency)', async () => {
+  it('approve -> resume publishes the package and skips completed renders (idempotency)', async () => {
     const before = readFileSync(join(workRoot, 'runs', runId, 'manifest.json'), 'utf8');
     const manifestBefore = ManifestSchema.parse(JSON.parse(before));
-    const renderStage = Object.entries(manifestBefore.channels['sv-shorts-news'].stages).find(([k]) =>
+    const renderStage = Object.entries(manifestBefore.channels['sv-ekonomi'].stages).find(([k]) =>
       k.endsWith(':render')
     );
     const finishedAtBefore = renderStage?.[1].finishedAt;
 
-    const outcome = await runPipeline({ rootDir: workRoot, mock: true, channels: ['sv-shorts-news'], resume: runId });
+    // Human approves the short (same code path as the approve CLI/workflow)
+    const short = Object.values(manifestBefore.packages).find((p) => p.kind === 'short')!;
+    transitionPackage(short, 'approved');
+    await saveManifest(manifestBefore, workRoot);
+
+    const outcome = await runPipeline({ rootDir: workRoot, mock: true, channels: ['sv-ekonomi'], resume: runId });
     expect(outcome.status).toBe('completed');
 
     const manifestAfter = ManifestSchema.parse(
       JSON.parse(readFileSync(join(workRoot, 'runs', runId, 'manifest.json'), 'utf8'))
     );
-    const renderAfter = manifestAfter.channels['sv-shorts-news'].stages[renderStage![0]];
+    // publish stage picked up the approved package
+    expect(manifestAfter.packages[short.pkgId].status).toBe('published');
+    const renderAfter = manifestAfter.channels['sv-ekonomi'].stages[renderStage![0]];
     // untouched: the stage was skipped, not re-run
     expect(renderAfter.finishedAt).toBe(finishedAtBefore);
   }, 120_000);

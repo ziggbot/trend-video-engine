@@ -20,12 +20,21 @@ async function loadPrompt(ctx: ChannelCtx, name: string): Promise<string> {
   return readFile(join(ctx.rootDir, 'config', 'prompts', `${name}.md`), 'utf8');
 }
 
+const STYLE_INSTRUCTIONS: Record<string, string> = {
+  news: 'STYLE: This is timely content about something happening right now — it may reference current events directly.',
+  evergreen:
+    'STYLE: EVERGREEN. The trend below only proves people are curious about this subject right now. Do NOT recap the news. ' +
+    'Explain the underlying subject — background, how it works, why it matters — so the video is still accurate and ' +
+    'watchable a year from now. Avoid dates, "today", "just happened", "breaking" and other time-bound framing.'
+};
+
 function topicVars(ctx: ChannelCtx, topic: ScoredTopic): Record<string, string> {
   return {
     language: ctx.channel.language === 'sv' ? 'Swedish' : 'English',
     tone: ctx.channel.tone,
     niche: ctx.channel.niche,
     audience: ctx.channel.audience,
+    styleInstruction: STYLE_INSTRUCTIONS[ctx.channel.contentStyle],
     topic: topic.topic,
     whyNow: topic.whyNow,
     newsTitles: topic.sourceReferences.map((n) => `- ${n.title} (${n.source})`).join('\n') || '- (no news context)'
@@ -35,6 +44,22 @@ function topicVars(ctx: ChannelCtx, topic: ScoredTopic): Record<string, string> 
 export async function generateShortScript(ctx: ChannelCtx, topic: ScoredTopic): Promise<ShortScript> {
   const template = await loadPrompt(ctx, 'short-script');
   const prompt = renderTemplate(template, topicVars(ctx, topic));
+  return completeStructured(ctx.services.llm, ShortScriptSchema, { prompt, temperature: 0.9 });
+}
+
+/** Cut a vertical short's script out of one long-form chapter (funnel content). */
+export async function generateShortFromChapter(
+  ctx: ChannelCtx,
+  topic: ScoredTopic,
+  source: { videoTitle: string; chapterTitle: string; chapterText: string }
+): Promise<ShortScript> {
+  const template = await loadPrompt(ctx, 'short-from-chapter');
+  const prompt = renderTemplate(template, {
+    ...topicVars(ctx, topic),
+    videoTitle: source.videoTitle,
+    chapterTitle: source.chapterTitle,
+    chapterText: source.chapterText
+  });
   return completeStructured(ctx.services.llm, ShortScriptSchema, { prompt, temperature: 0.9 });
 }
 

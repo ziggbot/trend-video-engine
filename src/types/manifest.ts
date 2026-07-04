@@ -78,7 +78,15 @@ export const ChannelRunSchema = z.object({
     })
     .optional(),
   plan: z
-    .array(z.object({ kind: ContentKindSchema, topicRank: z.number(), pkgId: z.string().optional() }))
+    .array(
+      z.object({
+        kind: ContentKindSchema,
+        topicRank: z.number(),
+        pkgId: z.string().optional(),
+        /** Set when this short is cut from a long-form chapter (index into chapters). */
+        derivedFromChapter: z.number().optional()
+      })
+    )
     .default([]),
   stages: z.record(z.string(), StageStateSchema).default({})
 });

@@ -1,5 +1,7 @@
 TASK: ig-carousel
 
+{{styleInstruction}}
+
 You design Instagram carousel posts for a faceless channel. Language: {{language}}. Tone: {{tone}}. Niche: {{niche}}.
 
 Topic: {{topic}}
