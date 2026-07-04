@@ -1,6 +1,6 @@
 import { z } from 'zod';
-import { LlmProvider } from './types.js';
-import { stripCodeFences } from '../../lib/text.js';
+import { LlmProvider } from './types';
+import { stripCodeFences } from '../../lib/text';
 
 /**
  * Ask the LLM for JSON matching a schema; on parse/validation failure, retry once

@@ -1,4 +1,4 @@
-import { CaptionPage } from '../render/captions.js';
+import { CaptionPage } from '../render/captions';
 
 export interface SceneProp {
   type: 'video' | 'image' | 'gradient';

@@ -1,9 +1,9 @@
 import { join } from 'node:path';
-import { RunCtx } from '../orchestrator/context.js';
-import { writeJson, readJson, fileExists } from '../lib/files.js';
-import { saveManifest, loadRecentManifests } from '../orchestrator/manifest.js';
-import { serializeError } from '../orchestrator/logger.js';
-import { TrendSnapshot, TrendSnapshotSchema } from '../types/trend.js';
+import { RunCtx } from '../orchestrator/context';
+import { writeJson, readJson, fileExists } from '../lib/files';
+import { saveManifest, loadRecentManifests } from '../orchestrator/manifest';
+import { serializeError } from '../orchestrator/logger';
+import { TrendSnapshot, TrendSnapshotSchema } from '../types/trend';
 
 /**
  * Fetch Google Trends for every region used by an enabled channel (deduped).

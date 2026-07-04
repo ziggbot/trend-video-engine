@@ -1,7 +1,7 @@
 import React from 'react';
 import { AbsoluteFill, Img, OffthreadVideo, interpolate, useCurrentFrame, useVideoConfig } from 'remotion';
-import { SceneProp } from '../props.js';
-import { Theme } from '../themes.js';
+import { SceneProp } from '../props';
+import { Theme } from '../themes';
 
 const FADE_FRAMES = 6;
 

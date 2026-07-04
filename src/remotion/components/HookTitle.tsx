@@ -1,6 +1,6 @@
 import React from 'react';
 import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } from 'remotion';
-import { Theme } from '../themes.js';
+import { Theme } from '../themes';
 
 /** Big hook text overlay for the first ~2.2 seconds. */
 export const HookTitle: React.FC<{ hook: string; theme: Theme }> = ({ hook, theme }) => {

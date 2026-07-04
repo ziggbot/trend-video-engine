@@ -1,6 +1,6 @@
-import { LlmJsonRequest, LlmProvider } from './types.js';
-import { fetchJson } from '../../lib/http.js';
-import { withRetry } from '../../lib/retry.js';
+import { LlmJsonRequest, LlmProvider } from './types';
+import { fetchJson } from '../../lib/http';
+import { withRetry } from '../../lib/retry';
 
 const DEFAULT_MODEL = 'gemini-2.5-flash';
 

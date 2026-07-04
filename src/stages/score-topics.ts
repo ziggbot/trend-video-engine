@@ -1,6 +1,6 @@
-import { Channel, ScoringConfig } from '../types/channel.js';
-import { ScoredTopic, TrendItem } from '../types/trend.js';
-import { Manifest } from '../types/manifest.js';
+import { Channel, ScoringConfig } from '../types/channel';
+import { ScoredTopic, TrendItem } from '../types/trend';
+import { Manifest } from '../types/manifest';
 
 /**
  * Heuristic topic scoring (ported from the original MVP, made config- and

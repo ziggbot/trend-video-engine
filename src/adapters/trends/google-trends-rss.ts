@@ -1,7 +1,7 @@
-import { TrendItem, TrendSnapshot } from '../../types/trend.js';
-import { TrendsSource } from './types.js';
-import { fetchText } from '../../lib/http.js';
-import { withRetry } from '../../lib/retry.js';
+import { TrendItem, TrendSnapshot } from '../../types/trend';
+import { TrendsSource } from './types';
+import { fetchText } from '../../lib/http';
+import { withRetry } from '../../lib/retry';
 
 const REGION_MAP: Record<string, { geo: string; label: string }> = {
   SE: { geo: 'SE', label: 'Sweden' },

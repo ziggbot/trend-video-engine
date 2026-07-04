@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
-import { planContent } from '../../src/stages/plan-content.js';
-import { ChannelSchema } from '../../src/types/channel.js';
-import { sceneDurations } from '../../src/stages/produce.js';
+import { planContent } from '../../src/stages/plan-content';
+import { ChannelSchema } from '../../src/types/channel';
+import { sceneDurations } from '../../src/stages/produce';
 
 const base = {
   id: 'test',

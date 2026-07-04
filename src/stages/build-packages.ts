@@ -1,15 +1,15 @@
-import { join, basename } from 'node:path';
+import { join, basename, resolve } from 'node:path';
 import { copyFile } from 'node:fs/promises';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
-import { ChannelCtx } from '../orchestrator/context.js';
-import { ensureDir, writeJson, atomicWriteFile } from '../lib/files.js';
-import { makePkgId } from '../lib/ids.js';
-import { ffprobe } from '../render/ffmpeg.js';
-import { ProducedContent } from './produce.js';
-import { PackageEntry } from '../types/manifest.js';
-import { transitionPackage } from '../orchestrator/manifest.js';
-import { Platform } from '../types/channel.js';
+import { ChannelCtx } from '../orchestrator/context';
+import { ensureDir, writeJson, atomicWriteFile } from '../lib/files';
+import { makePkgId } from '../lib/ids';
+import { ffprobe } from '../render/ffmpeg';
+import { ProducedContent } from './produce';
+import { PackageEntry } from '../types/manifest';
+import { transitionPackage } from '../orchestrator/manifest';
+import { Platform } from '../types/channel';
 
 const execFileAsync = promisify(execFile);
 
@@ -74,9 +74,7 @@ export async function buildPackage(ctx: ChannelCtx, content: ProducedContent): P
   await writeJson(join(dir, 'package.json'), pkgJson);
   await atomicWriteFile(join(dir, 'README.md'), packageReadme(ctx, pkgId, content, platforms));
 
-  const zipName = `${pkgId}.zip`;
-  const zipPath = join(ctx.outputDir, zipName);
-  await zipDir(dir, zipPath);
+  const zipPath = await zipDir(dir, join(ctx.outputDir, `${pkgId}.zip`));
 
   const approvalMode = ctx.channel.approval[content.kind];
   const entry: PackageEntry = {
@@ -143,16 +141,19 @@ function packageReadme(ctx: ChannelCtx, pkgId: string, content: ProducedContent,
   return lines.join('\n');
 }
 
-async function zipDir(dir: string, zipPath: string): Promise<void> {
+/** Zip the package dir; returns the archive path (tar.gz fallback when zip is missing). */
+async function zipDir(dir: string, zipPath: string): Promise<string> {
+  const absZip = resolve(zipPath);
   try {
-    await execFileAsync('zip', ['-r', '-q', zipPath, '.'], { cwd: dir, timeout: 120_000 });
+    await execFileAsync('zip', ['-r', '-q', absZip, '.'], { cwd: dir, timeout: 120_000 });
+    return zipPath;
   } catch (err) {
-    const e = err as NodeJS.ErrnoException;
-    if (e.code === 'ENOENT') {
-      // zip not installed — fall back to tar.gz (always present on Linux runners)
+    const e = err as NodeJS.ErrnoException & { message?: string };
+    const zipMissing = e.code === 'ENOENT' || /not found|ENOENT/i.test(e.message ?? '');
+    if (zipMissing) {
       const tarPath = zipPath.replace(/\.zip$/, '.tar.gz');
-      await execFileAsync('tar', ['-czf', tarPath, '-C', dir, '.'], { timeout: 120_000 });
-      return;
+      await execFileAsync('tar', ['-czf', resolve(tarPath), '-C', dir, '.'], { timeout: 120_000 });
+      return tarPath;
     }
     throw err;
   }

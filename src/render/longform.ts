@@ -1,9 +1,9 @@
-import { join } from 'node:path';
+import { join, resolve } from 'node:path';
 import { readdir, writeFile } from 'node:fs/promises';
-import { ensureDir, fileExists } from '../lib/files.js';
-import { runFfmpeg, ffprobe } from './ffmpeg.js';
-import { SceneAsset } from '../stages/gather-visuals.js';
-import { Logger } from '../orchestrator/logger.js';
+import { ensureDir, fileExists } from '../lib/files';
+import { runFfmpeg, ffprobe } from './ffmpeg';
+import { SceneAsset } from '../stages/gather-visuals';
+import { Logger } from '../orchestrator/logger';
 
 const W = 1920;
 const H = 1080;
@@ -63,7 +63,8 @@ export async function renderLongform(opts: {
   }
 
   const listPath = join(segDir, 'list.txt');
-  await writeFile(listPath, segFiles.map((f) => `file '${f.replace(/'/g, "'\\''")}'`).join('\n'));
+  // concat demuxer resolves relative entries against the list file's dir — use absolute paths
+  await writeFile(listPath, segFiles.map((f) => `file '${resolve(f).replace(/'/g, "'\\''")}'`).join('\n'));
 
   const music = await pickMusic(opts.musicDir);
   const assEscaped = opts.assPath.replace(/\\/g, '\\\\').replace(/:/g, '\\:').replace(/'/g, "\\'");

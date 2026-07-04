@@ -1,5 +1,5 @@
-import { runPipeline } from './orchestrator/run.js';
-import { loadManifest, saveManifest, transitionPackage } from './orchestrator/manifest.js';
+import { runPipeline } from './orchestrator/run';
+import { loadManifest, saveManifest, transitionPackage } from './orchestrator/manifest';
 
 function parseArgs(argv: string[]) {
   const args = [...argv];

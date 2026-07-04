@@ -1,4 +1,4 @@
-import { TrendSnapshot } from '../../types/trend.js';
+import { TrendSnapshot } from '../../types/trend';
 
 export interface TrendsSource {
   id: string;

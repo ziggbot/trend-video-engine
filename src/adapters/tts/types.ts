@@ -1,4 +1,4 @@
-import { WordTiming } from '../../types/script.js';
+import { WordTiming } from '../../types/script';
 
 export interface TtsRequest {
   text: string;

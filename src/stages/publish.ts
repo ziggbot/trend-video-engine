@@ -1,6 +1,6 @@
-import { RunCtx } from '../orchestrator/context.js';
-import { transitionPackage, saveManifest } from '../orchestrator/manifest.js';
-import { serializeError } from '../orchestrator/logger.js';
+import { RunCtx } from '../orchestrator/context';
+import { transitionPackage, saveManifest } from '../orchestrator/manifest';
+import { serializeError } from '../orchestrator/logger';
 
 /**
  * Publish every approved package via its channel's configured publisher.

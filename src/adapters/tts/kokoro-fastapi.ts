@@ -1,7 +1,7 @@
-import { TtsProvider, TtsRequest, TtsResult } from './types.js';
-import { WordTiming } from '../../types/script.js';
-import { fetchJson } from '../../lib/http.js';
-import { withRetry } from '../../lib/retry.js';
+import { TtsProvider, TtsRequest, TtsResult } from './types';
+import { WordTiming } from '../../types/script';
+import { fetchJson } from '../../lib/http';
+import { withRetry } from '../../lib/retry';
 
 interface CaptionedSpeechResponse {
   audio: string; // base64

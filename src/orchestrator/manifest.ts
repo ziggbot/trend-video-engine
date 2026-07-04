@@ -6,8 +6,8 @@ import {
   PackageEntry,
   PackageStatus,
   PACKAGE_TRANSITIONS
-} from '../types/manifest.js';
-import { writeJson, readJson, fileExists } from '../lib/files.js';
+} from '../types/manifest';
+import { writeJson, readJson, fileExists } from '../lib/files';
 
 export const RUNS_DIR = 'runs';
 

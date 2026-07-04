@@ -1,0 +1,123 @@
+name: Daily Content Generation
+
+on:
+  schedule:
+    - cron: '15 5 * * *'
+  workflow_dispatch:
+    inputs:
+      channels:
+        description: 'Comma-separated channel ids (empty = all enabled)'
+        required: false
+        default: ''
+      resume_run_id:
+        description: 'Resume an existing run id'
+        required: false
+        default: ''
+
+concurrency:
+  group: daily-generate
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout engine repo
+        uses: actions/checkout@v4
+
+      - name: Checkout dashboard repo
+        uses: actions/checkout@v4
+        with:
+          repository: ziggbot/trend-video-engine-dashboard-pages
+          token: ${{ secrets.DASHBOARD_REPO_TOKEN }}
+          path: dashboard
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install system dependencies
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-core fonts-noto-color-emoji zip
+
+      - name: Install npm dependencies
+        run: npm ci
+
+      - name: Cache Remotion browser
+        uses: actions/cache@v4
+        with:
+          path: ~/.remotion
+          key: remotion-browser-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+
+      - name: Run pipeline
+        id: run
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: |
+          ARGS=""
+          if [ -n "${{ inputs.channels }}" ]; then ARGS="$ARGS --channels ${{ inputs.channels }}"; fi
+          if [ -n "${{ inputs.resume_run_id }}" ]; then ARGS="$ARGS --resume ${{ inputs.resume_run_id }}"; fi
+          npx tsx src/cli.ts run $ARGS | tee run-outcome.json
+          RUN_ID=$(node -e "const lines=require('fs').readFileSync('run-outcome.json','utf8');const m=lines.match(/\"runId\": \"([^\"]+)\"/);console.log(m?m[1]:'')")
+          echo "run_id=$RUN_ID" >> "$GITHUB_OUTPUT"
+
+      - name: Export dashboard data
+        if: always() && steps.run.outputs.run_id != ''
+        run: DASHBOARD_DIR=dashboard node scripts/export-dashboard-data.mjs
+
+      - name: Push dashboard updates
+        if: always() && steps.run.outputs.run_id != ''
+        working-directory: dashboard
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Refresh dashboard data (run ${{ steps.run.outputs.run_id }})"
+          git push
+
+      - name: Create release with content packages
+        if: steps.run.outputs.run_id != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          RUN_ID="${{ steps.run.outputs.run_id }}"
+          shopt -s nullglob
+          ASSETS=(output/$RUN_ID/*.zip output/$RUN_ID/*.tar.gz)
+          if [ ${#ASSETS[@]} -gt 0 ]; then
+            gh release create "run-$RUN_ID" "${ASSETS[@]}" \
+              --prerelease \
+              --title "Content run $RUN_ID" \
+              --notes-file "runs/$RUN_ID/summary.md"
+          else
+            echo "No packages to release"
+          fi
+
+      - name: Commit run manifest
+        if: always() && steps.run.outputs.run_id != ''
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git add runs/*/manifest.json runs/*/summary.md data-ledger/ 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "Run ${{ steps.run.outputs.run_id }} manifest"
+          git push
+
+      - name: Prune old releases
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/prune-releases.mjs
+
+      - name: Upload run log
+        if: always() && steps.run.outputs.run_id != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: run-log-${{ steps.run.outputs.run_id }}
+          path: runs/${{ steps.run.outputs.run_id }}/run.log.jsonl
+          retention-days: 14
+          if-no-files-found: ignore

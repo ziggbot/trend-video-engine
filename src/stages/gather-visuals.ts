@@ -1,10 +1,10 @@
 import { join } from 'node:path';
-import { ChannelCtx } from '../orchestrator/context.js';
-import { ensureDir, writeJson, readJson, fileExists } from '../lib/files.js';
-import { downloadFile } from '../lib/http.js';
-import { renderGradientClip } from '../render/ffmpeg.js';
-import { Orientation } from '../adapters/visuals/types.js';
-import { mapLimit } from '../lib/retry.js';
+import { ChannelCtx } from '../orchestrator/context';
+import { ensureDir, writeJson, readJson, fileExists } from '../lib/files';
+import { downloadFile } from '../lib/http';
+import { renderGradientClip } from '../render/ffmpeg';
+import { Orientation } from '../adapters/visuals/types';
+import { mapLimit } from '../lib/retry';
 
 export interface SceneRequest {
   keywords: string[];

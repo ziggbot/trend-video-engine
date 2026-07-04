@@ -1,7 +1,7 @@
 import React from 'react';
 import { AbsoluteFill, Img } from 'remotion';
-import { ThumbnailProps } from './props.js';
-import { getTheme } from './themes.js';
+import { ThumbnailProps } from './props';
+import { getTheme } from './themes';
 
 /** 1280x720 long-form video thumbnail. */
 export const Thumbnail: React.FC<ThumbnailProps> = ({ title, backgroundUrl, channelName, themeName }) => {

@@ -1,8 +1,8 @@
 import { join } from 'node:path';
-import { ChannelCtx } from '../orchestrator/context.js';
-import { runStage } from '../orchestrator/stage.js';
-import { readJson, writeJson, ensureDir } from '../lib/files.js';
-import { ScoredTopic, ScoredTopicSchema } from '../types/trend.js';
+import { ChannelCtx } from '../orchestrator/context';
+import { runStage } from '../orchestrator/stage';
+import { readJson, writeJson, ensureDir } from '../lib/files';
+import { ScoredTopic, ScoredTopicSchema } from '../types/trend';
 import {
   Carousel,
   CarouselSchema,
@@ -13,21 +13,21 @@ import {
   ShortScript,
   ShortScriptSchema,
   WordTiming
-} from '../types/script.js';
+} from '../types/script';
 import {
   generateCarousel,
   generateLongScript,
   generatePlatformMetadata,
   generateShortScript
-} from './generate-script.js';
-import { synthesizeChapters, synthesizeVoice } from './synthesize-voice.js';
-import { paginateWords, toAss, toSrt, CaptionPage } from '../render/captions.js';
-import { atomicWriteFile } from '../lib/files.js';
-import { gatherVisuals, SceneAsset, SceneRequest } from './gather-visuals.js';
-import { AssetServer } from '../render/asset-server.js';
-import { renderComposition, renderStillImage } from '../render/remotion.js';
-import { renderLongform, extractFrame } from '../render/longform.js';
-import { ffprobe } from '../render/ffmpeg.js';
+} from './generate-script';
+import { synthesizeChapters, synthesizeVoice } from './synthesize-voice';
+import { paginateWords, toAss, toSrt, CaptionPage } from '../render/captions';
+import { atomicWriteFile } from '../lib/files';
+import { gatherVisuals, SceneAsset, SceneRequest } from './gather-visuals';
+import { AssetServer } from '../render/asset-server';
+import { renderComposition, renderStillImage } from '../render/remotion';
+import { renderLongform, extractFrame } from '../render/longform';
+import { ffprobe } from '../render/ffmpeg';
 import { z } from 'zod';
 
 export interface ProducedContent {

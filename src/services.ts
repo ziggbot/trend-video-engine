@@ -1,16 +1,16 @@
-import { Services } from './orchestrator/context.js';
-import { Logger } from './orchestrator/logger.js';
-import { GoogleTrendsRss } from './adapters/trends/google-trends-rss.js';
-import { GeminiProvider } from './adapters/llm/gemini.js';
-import { OpenAiProvider } from './adapters/llm/openai.js';
-import { EdgeTtsProvider } from './adapters/tts/edge-tts.js';
-import { KokoroProvider } from './adapters/tts/kokoro-fastapi.js';
-import { PexelsProvider } from './adapters/visuals/pexels.js';
-import { ManualPublisher } from './adapters/publish/manual.js';
-import { UploadPostPublisher } from './adapters/publish/upload-post.js';
-import { MockLlm, MockTrends, MockTts, MockVisuals } from './adapters/mock.js';
-import { VoicePreset } from './types/channel.js';
-import { TtsProvider } from './adapters/tts/types.js';
+import { Services } from './orchestrator/context';
+import { Logger } from './orchestrator/logger';
+import { GoogleTrendsRss } from './adapters/trends/google-trends-rss';
+import { GeminiProvider } from './adapters/llm/gemini';
+import { OpenAiProvider } from './adapters/llm/openai';
+import { EdgeTtsProvider } from './adapters/tts/edge-tts';
+import { KokoroProvider } from './adapters/tts/kokoro-fastapi';
+import { PexelsProvider } from './adapters/visuals/pexels';
+import { ManualPublisher } from './adapters/publish/manual';
+import { UploadPostPublisher } from './adapters/publish/upload-post';
+import { MockLlm, MockTrends, MockTts, MockVisuals } from './adapters/mock';
+import { VoicePreset } from './types/channel';
+import { TtsProvider } from './adapters/tts/types';
 
 export function createServices(mock: boolean, log: Logger): Services {
   if (mock) {

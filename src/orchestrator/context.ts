@@ -1,11 +1,11 @@
-import { Channel, ScoringConfig, VoicePreset } from '../types/channel.js';
-import { Manifest } from '../types/manifest.js';
-import { Logger } from './logger.js';
-import type { LlmProvider } from '../adapters/llm/types.js';
-import type { TtsProvider } from '../adapters/tts/types.js';
-import type { VisualsProvider } from '../adapters/visuals/types.js';
-import type { TrendsSource } from '../adapters/trends/types.js';
-import type { Publisher } from '../adapters/publish/types.js';
+import { Channel, ScoringConfig, VoicePreset } from '../types/channel';
+import { Manifest } from '../types/manifest';
+import { Logger } from './logger';
+import type { LlmProvider } from '../adapters/llm/types';
+import type { TtsProvider } from '../adapters/tts/types';
+import type { VisualsProvider } from '../adapters/visuals/types';
+import type { TrendsSource } from '../adapters/trends/types';
+import type { Publisher } from '../adapters/publish/types';
 
 export interface AppConfig {
   channels: Channel[];

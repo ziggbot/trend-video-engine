@@ -1,7 +1,7 @@
 import React from 'react';
 import { AbsoluteFill } from 'remotion';
-import { IgCardProps } from './props.js';
-import { getTheme } from './themes.js';
+import { IgCardProps } from './props';
+import { getTheme } from './themes';
 
 /** 1080x1350 (4:5) Instagram carousel card. */
 export const IgCard: React.FC<IgCardProps> = ({ kind, title, body, index, total, channelName, themeName }) => {

@@ -1,8 +1,8 @@
-import { StageState } from '../types/manifest.js';
-import { fileExists } from '../lib/files.js';
-import { saveManifest } from './manifest.js';
-import { serializeError, Logger } from './logger.js';
-import { RunCtx } from './context.js';
+import { StageState } from '../types/manifest';
+import { fileExists } from '../lib/files';
+import { saveManifest } from './manifest';
+import { serializeError, Logger } from './logger';
+import { RunCtx } from './context';
 
 export interface StageResult {
   outputs: string[];

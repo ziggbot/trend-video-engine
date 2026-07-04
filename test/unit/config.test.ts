@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { readFileSync } from 'node:fs';
-import { ChannelsConfigSchema, VoicesConfigSchema, ScoringConfigSchema, ChannelSchema } from '../../src/types/channel.js';
+import { ChannelsConfigSchema, VoicesConfigSchema, ScoringConfigSchema, ChannelSchema } from '../../src/types/channel';
 
 describe('shipped config', () => {
   it('channels.json validates and voices resolve', () => {

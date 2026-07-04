@@ -1,6 +1,6 @@
-import { Orientation, VisualCandidate, VisualsProvider } from './types.js';
-import { fetchJson } from '../../lib/http.js';
-import { withRetry } from '../../lib/retry.js';
+import { Orientation, VisualCandidate, VisualsProvider } from './types';
+import { fetchJson } from '../../lib/http';
+import { withRetry } from '../../lib/retry';
 
 interface PexelsVideoFile {
   id: number;

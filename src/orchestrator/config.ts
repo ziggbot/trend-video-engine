@@ -4,10 +4,10 @@ import {
   ChannelsConfigSchema,
   ScoringConfigSchema,
   VoicesConfigSchema
-} from '../types/channel.js';
-import { readJson } from '../lib/files.js';
-import { AppConfig } from './context.js';
-import { Logger } from './logger.js';
+} from '../types/channel';
+import { readJson } from '../lib/files';
+import { AppConfig } from './context';
+import { Logger } from './logger';
 
 /**
  * Load and validate config. An invalid channel disables itself with a warning;

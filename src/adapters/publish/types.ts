@@ -1,5 +1,5 @@
-import { Platform, ContentKind } from '../../types/channel.js';
-import { PackageEntry } from '../../types/manifest.js';
+import { Platform, ContentKind } from '../../types/channel';
+import { PackageEntry } from '../../types/manifest';
 
 export type PublishResult =
   | { ok: true; remoteId?: string; remoteUrl?: string; publishedAt: string }

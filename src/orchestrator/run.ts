@@ -1,19 +1,19 @@
 import { join } from 'node:path';
-import { RunCtx, ChannelCtx } from './context.js';
-import { createLogger, serializeError } from './logger.js';
-import { createManifest, loadManifest, saveManifest, loadRecentManifests } from './manifest.js';
-import { loadConfig } from './config.js';
-import { makeRunId } from '../lib/ids.js';
-import { createServices } from '../services.js';
-import { fetchTrends } from '../stages/fetch-trends.js';
-import { scoreTopics, collectRecentTopics } from '../stages/score-topics.js';
-import { planContent } from '../stages/plan-content.js';
-import { produceShort, produceImagePost, produceLong } from '../stages/produce.js';
-import { buildPackage } from '../stages/build-packages.js';
-import { publishApproved } from '../stages/publish.js';
-import { runStage } from './stage.js';
-import { writeJson, readJson, atomicWriteFile, ensureDir } from '../lib/files.js';
-import { TrendSnapshotSchema, ScoredTopic } from '../types/trend.js';
+import { RunCtx, ChannelCtx } from './context';
+import { createLogger, serializeError } from './logger';
+import { createManifest, loadManifest, saveManifest, loadRecentManifests } from './manifest';
+import { loadConfig } from './config';
+import { makeRunId } from '../lib/ids';
+import { createServices } from '../services';
+import { fetchTrends } from '../stages/fetch-trends';
+import { scoreTopics, collectRecentTopics } from '../stages/score-topics';
+import { planContent } from '../stages/plan-content';
+import { produceShort, produceImagePost, produceLong } from '../stages/produce';
+import { buildPackage } from '../stages/build-packages';
+import { publishApproved } from '../stages/publish';
+import { runStage } from './stage';
+import { writeJson, readJson, atomicWriteFile, ensureDir } from '../lib/files';
+import { TrendSnapshotSchema, ScoredTopic } from '../types/trend';
 
 export interface RunOptions {
   rootDir?: string;

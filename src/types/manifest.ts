@@ -1,6 +1,6 @@
 import { z } from 'zod';
-import { ContentKindSchema, PlatformSchema } from './channel.js';
-import { NewsItemSchema } from './trend.js';
+import { ContentKindSchema, PlatformSchema } from './channel';
+import { NewsItemSchema } from './trend';
 
 export const StageStateSchema = z.object({
   status: z.enum(['pending', 'running', 'done', 'failed', 'skipped']),

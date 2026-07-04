@@ -1,9 +1,9 @@
 import React from 'react';
 import { Composition, Still } from 'remotion';
-import { ShortVideo, FPS, TAIL_SEC } from './ShortVideo.js';
-import { IgCard } from './IgCard.js';
-import { Thumbnail } from './Thumbnail.js';
-import { ShortVideoProps, IgCardProps, ThumbnailProps } from './props.js';
+import { ShortVideo, FPS, TAIL_SEC } from './ShortVideo';
+import { IgCard } from './IgCard';
+import { Thumbnail } from './Thumbnail';
+import { ShortVideoProps, IgCardProps, ThumbnailProps } from './props';
 
 export const RemotionRoot: React.FC = () => {
   return (

@@ -7,14 +7,11 @@ dist/
 .env
 .env.*
 
-# Run working directories: manifests are committed, heavy assets are not
-runs/*/assets/
-runs/*/*/assets/
-runs/*/*/voice/*.wav
-runs/*/*/voice/*.mp3
-runs/*/*/visuals/media/
-runs/*/*/render/
-runs/*/run.log.jsonl
+# Run working dirs: commit only the manifest, summary and small trend snapshots
+runs/*/*
+!runs/*/manifest.json
+!runs/*/summary.md
+!runs/*/trends-*.json
 
 # Remotion
 .remotion/

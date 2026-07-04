@@ -1,8 +1,8 @@
 import { describe, it, expect } from 'vitest';
 import { readFileSync } from 'node:fs';
-import { parseTrendsRss } from '../../src/adapters/trends/google-trends-rss.js';
-import { scoreTopics } from '../../src/stages/score-topics.js';
-import { ChannelSchema, ScoringConfigSchema } from '../../src/types/channel.js';
+import { parseTrendsRss } from '../../src/adapters/trends/google-trends-rss';
+import { scoreTopics } from '../../src/stages/score-topics';
+import { ChannelSchema, ScoringConfigSchema } from '../../src/types/channel';
 
 const xml = readFileSync('test/fixtures/trends-rss.xml', 'utf8');
 const scoring = ScoringConfigSchema.parse(JSON.parse(readFileSync('config/scoring.json', 'utf8')));

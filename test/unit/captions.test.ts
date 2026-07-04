@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
-import { paginateWords, toAss, toSrt } from '../../src/render/captions.js';
-import { WordTiming } from '../../src/types/script.js';
+import { paginateWords, toAss, toSrt } from '../../src/render/captions';
+import { WordTiming } from '../../src/types/script';
 
 function words(list: Array<[string, number, number]>): WordTiming[] {
   return list.map(([word, startSec, endSec]) => ({ word, startSec, endSec }));

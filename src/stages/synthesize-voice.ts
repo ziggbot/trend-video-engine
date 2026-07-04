@@ -1,10 +1,10 @@
 import { join } from 'node:path';
 import { writeFile } from 'node:fs/promises';
-import { ChannelCtx } from '../orchestrator/context.js';
-import { ensureDir, writeJson } from '../lib/files.js';
-import { WordTiming } from '../types/script.js';
-import { ffprobe, concatAudioWithGaps } from '../render/ffmpeg.js';
-import { VoicePreset } from '../types/channel.js';
+import { ChannelCtx } from '../orchestrator/context';
+import { ensureDir, writeJson } from '../lib/files';
+import { WordTiming } from '../types/script';
+import { ffprobe, concatAudioWithGaps } from '../render/ffmpeg';
+import { VoicePreset } from '../types/channel';
 
 export interface VoiceResult {
   audioPath: string;

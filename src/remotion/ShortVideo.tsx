@@ -1,10 +1,10 @@
 import React from 'react';
 import { AbsoluteFill, Audio, Series } from 'remotion';
-import { ShortVideoProps } from './props.js';
-import { getTheme } from './themes.js';
-import { SceneLayer } from './components/SceneLayer.js';
-import { KaraokeCaptions } from './components/KaraokeCaptions.js';
-import { HookTitle } from './components/HookTitle.js';
+import { ShortVideoProps } from './props';
+import { getTheme } from './themes';
+import { SceneLayer } from './components/SceneLayer';
+import { KaraokeCaptions } from './components/KaraokeCaptions';
+import { HookTitle } from './components/HookTitle';
 
 export const FPS = 30;
 export const TAIL_SEC = 0.5;

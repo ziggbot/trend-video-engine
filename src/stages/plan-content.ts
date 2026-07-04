@@ -1,4 +1,4 @@
-import { Channel, ContentKind, Weekday } from '../types/channel.js';
+import { Channel, ContentKind, Weekday } from '../types/channel';
 
 export interface PlanItem {
   kind: ContentKind;

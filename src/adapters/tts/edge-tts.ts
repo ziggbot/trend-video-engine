@@ -1,7 +1,7 @@
 import { Communicate } from 'edge-tts-universal';
-import { TtsProvider, TtsRequest, TtsResult } from './types.js';
-import { WordTiming } from '../../types/script.js';
-import { withRetry } from '../../lib/retry.js';
+import { TtsProvider, TtsRequest, TtsResult } from './types';
+import { WordTiming } from '../../types/script';
+import { withRetry } from '../../lib/retry';
 
 const TICKS_PER_SEC = 10_000_000; // Edge TTS reports offsets in 100-ns ticks
 
@@ -22,7 +22,24 @@ export class EdgeTtsProvider implements TtsProvider {
     return withRetry(() => this.synthesizeOnce(req), { attempts: 3, baseDelayMs: 3000 });
   }
 
+  /**
+   * Watchdog: the underlying WebSocket can die without erroring, which would
+   * otherwise drain the event loop and end the process mid-run. A referenced
+   * timer keeps the loop alive and converts silence into a retryable error.
+   */
   private async synthesizeOnce(req: TtsRequest): Promise<TtsResult> {
+    let watchdog: NodeJS.Timeout | undefined;
+    const timeout = new Promise<never>((_, reject) => {
+      watchdog = setTimeout(() => reject(new Error('Edge TTS timed out after 120s')), 120_000);
+    });
+    try {
+      return await Promise.race([this.streamAll(req), timeout]);
+    } finally {
+      clearTimeout(watchdog);
+    }
+  }
+
+  private async streamAll(req: TtsRequest): Promise<TtsResult> {
     const communicate = new Communicate(req.text, {
       voice: req.voiceId,
       rate: speedToRate(req.speed),

@@ -1,6 +1,6 @@
-import { Platform, ContentKind } from '../../types/channel.js';
-import { PackageEntry } from '../../types/manifest.js';
-import { Publisher, PublishResult } from './types.js';
+import { Platform, ContentKind } from '../../types/channel';
+import { PackageEntry } from '../../types/manifest';
+import { Publisher, PublishResult } from './types';
 
 /**
  * Default publisher: does not post anywhere. It marks the package as handled so the

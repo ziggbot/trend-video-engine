@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { readFileSync } from 'node:fs';
-import { parseTrendsRss, feedUrl } from '../../src/adapters/trends/google-trends-rss.js';
+import { parseTrendsRss, feedUrl } from '../../src/adapters/trends/google-trends-rss';
 
 const xml = readFileSync('test/fixtures/trends-rss.xml', 'utf8');
 

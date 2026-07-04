@@ -1,7 +1,7 @@
 import React from 'react';
 import { AbsoluteFill, spring, useCurrentFrame, useVideoConfig } from 'remotion';
-import { CaptionPage } from '../../render/captions.js';
-import { Theme } from '../themes.js';
+import { CaptionPage } from '../../render/captions';
+import { Theme } from '../themes';
 
 export const KaraokeCaptions: React.FC<{ pages: CaptionPage[]; theme: Theme }> = ({ pages, theme }) => {
   const frame = useCurrentFrame();

@@ -1,12 +1,12 @@
 import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import { LlmProvider, LlmJsonRequest } from './llm/types.js';
-import { TtsProvider, TtsRequest, TtsResult } from './tts/types.js';
-import { VisualsProvider, VisualCandidate, Orientation } from './visuals/types.js';
-import { TrendsSource } from './trends/types.js';
-import { TrendSnapshot } from '../types/trend.js';
-import { parseTrendsRss } from './trends/google-trends-rss.js';
-import { WordTiming } from '../types/script.js';
+import { LlmProvider, LlmJsonRequest } from './llm/types';
+import { TtsProvider, TtsRequest, TtsResult } from './tts/types';
+import { VisualsProvider, VisualCandidate, Orientation } from './visuals/types';
+import { TrendsSource } from './trends/types';
+import { TrendSnapshot } from '../types/trend';
+import { parseTrendsRss } from './trends/google-trends-rss';
+import { WordTiming } from '../types/script';
 
 /** Mock trends: parses the committed fixture RSS instead of hitting Google. */
 export class MockTrends implements TrendsSource {

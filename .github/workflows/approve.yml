@@ -1,0 +1,55 @@
+name: Approve Content Package
+
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: 'Run id (e.g. 20260704-0515-k3f9)'
+        required: true
+      pkg_id:
+        description: 'Package id (e.g. en-longform-trends--long--a1b2)'
+        required: true
+      decision:
+        description: 'approve or reject'
+        required: true
+        type: choice
+        options: [approve, reject]
+      note:
+        description: 'Optional note'
+        required: false
+        default: ''
+
+concurrency:
+  group: daily-generate
+  cancel-in-progress: false
+
+jobs:
+  approve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - run: npm ci --omit=optional
+
+      - name: Apply decision
+        run: |
+          NOTE_ARG=""
+          if [ -n "${{ inputs.note }}" ]; then NOTE_ARG="--note \"${{ inputs.note }}\""; fi
+          npx tsx src/cli.ts approve "${{ inputs.run_id }}" "${{ inputs.pkg_id }}" --${{ inputs.decision }} $NOTE_ARG
+
+      - name: Commit manifest change
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git add runs/${{ inputs.run_id }}/manifest.json
+          git diff --cached --quiet || git commit -m "${{ inputs.decision }} ${{ inputs.pkg_id }}"
+          git push

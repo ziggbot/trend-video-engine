@@ -1,9 +1,9 @@
 import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
-import { ChannelCtx } from '../orchestrator/context.js';
-import { completeStructured } from '../adapters/llm/json.js';
-import { renderTemplate } from '../lib/text.js';
-import { ScoredTopic } from '../types/trend.js';
+import { ChannelCtx } from '../orchestrator/context';
+import { completeStructured } from '../adapters/llm/json';
+import { renderTemplate } from '../lib/text';
+import { ScoredTopic } from '../types/trend';
 import {
   Carousel,
   CarouselSchema,
@@ -13,7 +13,7 @@ import {
   PlatformMetadataSchema,
   ShortScript,
   ShortScriptSchema
-} from '../types/script.js';
+} from '../types/script';
 import { z } from 'zod';
 
 async function loadPrompt(ctx: ChannelCtx, name: string): Promise<string> {

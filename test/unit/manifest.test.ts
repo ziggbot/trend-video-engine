@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
-import { transitionPackage } from '../../src/orchestrator/manifest.js';
-import { PackageEntry } from '../../src/types/manifest.js';
+import { transitionPackage } from '../../src/orchestrator/manifest';
+import { PackageEntry } from '../../src/types/manifest';
 
 function pkg(status: PackageEntry['status']): PackageEntry {
   return {
